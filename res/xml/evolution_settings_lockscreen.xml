@@ -76,11 +76,13 @@
         android:key="lockscreen_general_category"
         android:title="@string/general_category">
 
+        <!--
         <com.evolution.settings.preference.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
+        -->
 
         <Preference
             android:key="always_on_display_schedule"
@@ -121,6 +123,7 @@
             android:max="125"
             settings:min="2" />
 
+        <!--
         <com.evolution.settings.preference.SystemSettingSeekBarPreference
             android:key="ls_media_artwork_fade_percent"
             android:title="@string/ls_media_artwork_fade_percent_title"
@@ -128,6 +131,7 @@
             android:defaultValue="30"
             android:max="80"
             settings:min="1" />
+        -->
 
     </PreferenceCategory>
 
