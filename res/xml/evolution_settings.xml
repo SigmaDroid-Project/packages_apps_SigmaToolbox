@@ -8,6 +8,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/evolver_dashboard_title">
 
+    <!-- Sigma header -->
+    <Preference
+        android:key="sigma_header"
+        android:selectable="false"
+        settings:layout="@layout/settings_sigma_toolbox_header" />
+
     <!-- Themes -->
     <Preference
         android:key="themes_category"
@@ -77,12 +83,4 @@
         android:title="@string/misc_title"
         android:fragment="com.evolution.settings.fragments.Miscellaneous"
         android:icon="@drawable/ic_settings_miscellaneous" />
-
-    <!-- About Evolution X -->
-    <Preference
-        android:key="about_evolution"
-        android:title="@string/evolution_about_title"
-        android:fragment="com.evolution.settings.AboutEvolutionX"
-        android:icon="@drawable/ic_settings_evolution_about" />
-
 </PreferenceScreen>
