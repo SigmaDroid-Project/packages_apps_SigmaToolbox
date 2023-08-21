@@ -37,6 +37,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import com.android.internal.util.evolution.EvolutionUtils;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -87,6 +88,10 @@ public class Themes extends DashboardFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         Context mContext = getActivity().getApplicationContext();
+        if (preference == mDashBoardStyle) {
+            EvolutionUtils.showSettingsRestartDialog(getContext());
+            return true;
+        } 
         return false;
     }
 
