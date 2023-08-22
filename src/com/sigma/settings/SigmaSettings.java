@@ -20,6 +20,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.app.AlertDialog;
 import android.view.View;
 import android.content.Context;
 import android.provider.Settings;
@@ -96,7 +97,7 @@ public class SigmaSettings extends DashboardFragment {
             } else if (mDashBoardStyle == 1 || mDashBoardStyle == 3){
                if (mKey.equals("themes_category")) {
                     mPreference.setLayoutResource(R.layout.dot_dashboard_preference_top);
-                } else if (mKey.equals("misc_category")) {
+                } else if (mKey.equals("about_sigma")) {
                     mPreference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
                 } else {
                     mPreference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
