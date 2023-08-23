@@ -21,9 +21,9 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class TopLevelSigmaSettingsPreferenceController extends BasePreferenceController {
+public class TopLevelSigmaToolboxPreferenceController extends BasePreferenceController {
 
-    public TopLevelSigmaSettingsPreferenceController(Context context,
+    public TopLevelSigmaToolboxPreferenceController(Context context,
             String preferenceKey) {
         super(context, preferenceKey);
     }

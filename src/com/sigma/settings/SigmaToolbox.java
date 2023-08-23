@@ -32,9 +32,9 @@ import com.android.settingslib.search.SearchIndexable;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 @SearchIndexable
-public class SigmaSettings extends DashboardFragment {
+public class SigmaToolbox extends DashboardFragment {
 
-    private static final String TAG = "SigmaSettings";
+    private static final String TAG = "SigmaToolbox";
     private int mDashBoardStyle;
     protected CollapsingToolbarLayout mCollapsingToolbarLayout;
 
