@@ -66,6 +66,7 @@ public class Themes extends DashboardFragment implements
     private Handler mHandler;
     private IOverlayManager mOverlayManager;
     private IOverlayManager mOverlayService;
+    private ListPreference mDashBoardStyle;
     private SystemSettingListPreference mQsStyle;
 
     @Override
