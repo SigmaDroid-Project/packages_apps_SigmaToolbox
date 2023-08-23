@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
@@ -31,9 +31,9 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.R;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
-import com.evolution.settings.preference.SwitchPreference;
-import com.evolution.settings.preference.colorpicker.ColorPickerPreference;
+import com.sigma.settings.preference.CustomSeekBarPreference;
+import com.sigma.settings.preference.SwitchPreference;
+import com.sigma.settings.preference.colorpicker.ColorPickerPreference;
 
 import java.lang.CharSequence;
 
@@ -87,7 +87,7 @@ public class MonetSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_monet;
+        return R.xml.sigma_settings_monet;
     }
 
     @Override
@@ -356,5 +356,5 @@ public class MonetSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_monet);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_monet);
 }

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.evolution.settings
+package com.sigma.settings
 
 import androidx.preference.Preference
 
 import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
-import com.evolution.settings.fragments.ColorPickerFragment
-import com.evolution.settings.preference.ColorPickerPreference
+import com.sigma.settings.fragments.ColorPickerFragment
+import com.sigma.settings.preference.ColorPickerPreference
 
-abstract class EvolutionDashboardFragment : DashboardFragment() {
+abstract class SigmaDashboardFragment : DashboardFragment() {
     override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.EVOLVER
 
     override fun onDisplayPreferenceDialog(preference: Preference) {

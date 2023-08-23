@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.miscellaneous
+package com.sigma.settings.miscellaneous
 
 import com.android.settings.R
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settingslib.search.SearchIndexable
-import com.evolution.settings.EvolutionDashboardFragment
+import com.sigma.settings.SigmaDashboardFragment
 
 @SearchIndexable
-class MiscellaneousSettings : EvolutionDashboardFragment() {
+class MiscellaneousSettings : SigmaDashboardFragment() {
 
-    override protected fun getPreferenceScreenResId() = R.xml.evolution_settings_miscellaneous
+    override protected fun getPreferenceScreenResId() = R.xml.sigma_settings_miscellaneous
 
     override protected fun getLogTag() = TAG
 
@@ -34,6 +34,6 @@ class MiscellaneousSettings : EvolutionDashboardFragment() {
         private const val HIDDEN_APPS_PREFERENCE_KEY = "hidden_apps"
 
         @JvmField
-        val SEARCH_INDEX_DATA_PROVIDER = BaseSearchIndexProvider(R.xml.evolution_settings_miscellaneous)
+        val SEARCH_INDEX_DATA_PROVIDER = BaseSearchIndexProvider(R.xml.sigma_settings_miscellaneous)
     }
 }

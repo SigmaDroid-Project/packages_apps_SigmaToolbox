@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -48,7 +48,7 @@ import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.sigma.ThemeUtils;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;

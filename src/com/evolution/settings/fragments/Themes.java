@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import static android.os.UserHandle.USER_CURRENT;
 import static android.os.UserHandle.USER_SYSTEM;
@@ -37,7 +37,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.sigma.SigmaUtils;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -52,7 +52,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingListPreference;
+import com.sigma.settings.preference.SystemSettingListPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -70,7 +70,7 @@ public class Themes extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_themes;
+        return R.xml.sigma_settings_themes;
     }
 
     @Override
@@ -89,9 +89,9 @@ public class Themes extends DashboardFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         Context mContext = getActivity().getApplicationContext();
         if (preference == mDashBoardStyle) {
-            EvolutionUtils.showSettingsRestartDialog(getContext());
+            SigmaUtils.showSettingsRestartDialog(getContext());
             return true;
-        } 
+        }
         return false;
     }
 
@@ -106,5 +106,5 @@ public class Themes extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_themes);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_themes);
 }

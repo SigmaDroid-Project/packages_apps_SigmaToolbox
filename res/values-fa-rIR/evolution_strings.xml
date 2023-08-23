@@ -100,16 +100,16 @@
     <string name="navbar_invert_layout_title">حالت معکوس</string>
     <string name="navbar_invert_layout_summary">طرح نوار پیمایش و سایر موارد ، مانند کلید IME را معکوس می کند</string>
     <string name="system_navigation_summary">سبک ناوبری سیستم را انتخاب کنید</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">تیم</string>
-    <string name="evolution_about_summary">ارائه اطلاعات</string>
-    <string name="evolution_website_title">وب‌سایت</string>
-    <string name="evolution_website_summary">Feel free to drop by our website</string>
-    <string name="evolution_twitter_summary">Come see our tweets</string>
-    <string name="evolution_telegram_summary">Visit our community chat</string>
-    <string name="evolution_github_summary">Check out our GitHub</string>
-    <string name="evolution_about_info_summary">Evolution X is a custom ROM that aims to bring a Pixel feel to your device at first glance. With additional configurations at your disposal, we provide builds with monthly security patches from the latest Android sources.</string>
-    <string name="evolution_about_team">Contributors</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">تیم</string>
+    <string name="sigma_about_summary">ارائه اطلاعات</string>
+    <string name="sigma_website_title">وب‌سایت</string>
+    <string name="sigma_website_summary">Feel free to drop by our website</string>
+    <string name="sigma_twitter_summary">Come see our tweets</string>
+    <string name="sigma_telegram_summary">Visit our community chat</string>
+    <string name="sigma_github_summary">Check out our GitHub</string>
+    <string name="sigma_about_info_summary">SigmaDroid is a custom ROM that aims to bring a Pixel feel to your device at first glance. With additional configurations at your disposal, we provide builds with monthly security patches from the latest Android sources.</string>
+    <string name="sigma_about_team">Contributors</string>
     <!-- Battery light -->
     <string name="light_settings_header">تنظیمات نور</string>
     <string name="battery_light_settings">چراغ باتری</string>
@@ -797,7 +797,7 @@
     <string name="status_bar_logo_position_right">Right</string>
     <string name="status_bar_logo_position_left">Left</string>
     <string name="status_bar_logo_style_title">Style</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Alien</string>

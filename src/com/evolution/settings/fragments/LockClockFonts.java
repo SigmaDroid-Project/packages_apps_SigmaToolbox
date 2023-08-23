@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import static android.os.UserHandle.USER_SYSTEM;
 
@@ -60,7 +60,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.sigma.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

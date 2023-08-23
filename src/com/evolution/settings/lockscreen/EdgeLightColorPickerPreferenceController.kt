@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.lockscreen
+package com.sigma.settings.lockscreen
 
 import android.content.Context
 import android.database.ContentObserver

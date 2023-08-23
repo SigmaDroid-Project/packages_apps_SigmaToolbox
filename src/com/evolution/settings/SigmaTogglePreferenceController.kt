@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings
+package com.sigma.settings
 
 import android.content.Context
 import android.widget.Switch
@@ -27,7 +27,7 @@ import com.android.settings.core.TogglePreferenceController
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.OnMainSwitchChangeListener
 
-abstract class EvolutionTogglePreferenceController(
+abstract class SigmaTogglePreferenceController(
     context: Context,
     key: String,
 ) : TogglePreferenceController(context, key),

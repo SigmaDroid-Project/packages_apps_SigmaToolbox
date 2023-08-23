@@ -9,7 +9,7 @@
     android:title="@string/themes_title">
 
     <!-- Dashboard Themes -->
-    <com.evolution.settings.preference.SystemSettingListPreference
+    <com.sigma.settings.preference.SystemSettingListPreference
             android:key="settings_dashboard_style"
             android:title="@string/settings_dashboard_style_title"
             android:entries="@array/settings_dashboard_style_entries"
@@ -22,7 +22,7 @@
         android:key="monet_settings"
         android:title="@string/monet_settings_title"
         android:summary="@string/monet_settings_sammary"
-        android:fragment="com.evolution.settings.fragments.MonetSettings" />
+        android:fragment="com.sigma.settings.fragments.MonetSettings" />
 
     <Preference
         android:key="dark_ui_mode"
@@ -40,49 +40,49 @@
             android:key="android.theme.customization.fonts"
             android:title="@string/theme_customization_font_title"
             android:summary="@string/theme_customization_font_summary"
-            android:fragment="com.evolution.settings.fragments.FontsPicker" />
+            android:fragment="com.sigma.settings.fragments.FontsPicker" />
 
         <!-- Icon pack -->
         <Preference
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"
-            android:fragment="com.evolution.settings.fragments.StatusBarIcons" />
+            android:fragment="com.sigma.settings.fragments.StatusBarIcons" />
 
         <!-- Signal icon style -->
         <Preference
             android:key="android.theme.customization.signal_icon"
             android:title="@string/theme_customization_signal_icon_title"
             android:summary="@string/theme_customization_signal_icon_summary"
-            android:fragment="com.evolution.settings.fragments.SignalIcons" />
+            android:fragment="com.sigma.settings.fragments.SignalIcons" />
 
         <!-- Wifi icon style -->
         <Preference
             android:key="android.theme.customization.wifi_icon"
             android:title="@string/theme_customization_wifi_icon_title"
             android:summary="@string/theme_customization_wifi_icon_summary"
-            android:fragment="com.evolution.settings.fragments.WifiIcons" />
+            android:fragment="com.sigma.settings.fragments.WifiIcons" />
 
-        <!-- Data icon style -->  
+        <!-- Data icon style -->
         <Preference
             android:key="android.customization.sb_data"
             android:title="@string/theme_customization_data_title"
             android:summary="@string/theme_customization_data_summary"
-            android:fragment="com.evolution.settings.fragments.DataStyles" />
+            android:fragment="com.sigma.settings.fragments.DataStyles" />
 
         <!-- Adaptive icon pack -->
         <Preference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
-            android:fragment="com.evolution.settings.fragments.IconShapes" />
+            android:fragment="com.sigma.settings.fragments.IconShapes" />
 
         <!-- Navbar Style -->
         <Preference
             android:key="android.theme.customization.navbar"
             android:title="@string/theme_customization_navbar_title"
             android:summary="@string/theme_customization_navbar_summary"
-            android:fragment="com.evolution.settings.fragments.NavbarStyles" />
+            android:fragment="com.sigma.settings.fragments.NavbarStyles" />
 
     </PreferenceCategory>
 

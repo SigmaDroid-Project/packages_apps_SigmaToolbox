@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments
+package com.sigma.settings.fragments
 
 import android.annotation.IntDef
 import android.content.pm.PackageInfo

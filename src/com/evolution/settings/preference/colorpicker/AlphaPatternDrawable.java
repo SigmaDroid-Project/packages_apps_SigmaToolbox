@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference.colorpicker;
+package com.sigma.settings.preference.colorpicker;
 
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;

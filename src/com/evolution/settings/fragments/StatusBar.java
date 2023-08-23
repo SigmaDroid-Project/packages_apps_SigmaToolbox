@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -43,9 +43,9 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.development.SystemPropPoker;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.fragments.Clock;
-import com.evolution.settings.preference.SystemSettingListPreference;
-import com.evolution.settings.utils.DeviceUtils;
+import com.sigma.settings.fragments.Clock;
+import com.sigma.settings.preference.SystemSettingListPreference;
+import com.sigma.settings.utils.DeviceUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,7 +74,7 @@ public class StatusBar extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_status_bar;
+        return R.xml.sigma_settings_status_bar;
     }
 
     @Override
@@ -175,5 +175,5 @@ public class StatusBar extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_status_bar);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_status_bar);
 }

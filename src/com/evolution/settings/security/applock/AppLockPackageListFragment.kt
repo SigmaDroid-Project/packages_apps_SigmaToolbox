@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.app.AppLockManager
 import android.content.Context
@@ -28,13 +28,13 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.forEach
 
-import com.android.internal.util.evolution.EvolutionUtils
+import com.android.internal.util.sigma.SigmaUtils
 
 import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
 import com.android.settingslib.PrimarySwitchPreference
 import com.android.settingslib.widget.TwoTargetPreference.ICON_SIZE_MEDIUM
-import com.evolution.settings.EvolutionDashboardFragment
+import com.sigma.settings.SigmaDashboardFragment
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -43,7 +43,7 @@ import kotlinx.coroutines.withContext
 private val TAG = AppLockPackageListFragment::class.simpleName
 internal const val PACKAGE_INFO = "package_info"
 
-class AppLockPackageListFragment : EvolutionDashboardFragment() {
+class AppLockPackageListFragment : SigmaDashboardFragment() {
 
     private lateinit var appLockManager: AppLockManager
     private lateinit var pm: PackageManager
@@ -54,7 +54,7 @@ class AppLockPackageListFragment : EvolutionDashboardFragment() {
         super.onAttach(context)
         appLockManager = context.getSystemService(AppLockManager::class.java)
         pm = context.packageManager
-        launchablePackages = EvolutionUtils.launchablePackages(context)
+        launchablePackages = SigmaUtils.launchablePackages(context)
         whiteListedPackages = resources.getStringArray(
             com.android.internal.R.array.config_appLockAllowedSystemApps)
     }

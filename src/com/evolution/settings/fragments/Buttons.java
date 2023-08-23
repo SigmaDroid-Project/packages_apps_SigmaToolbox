@@ -16,7 +16,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -40,7 +40,7 @@ import androidx.preference.SwitchPreference;
 
 import com.android.internal.lineage.hardware.LineageHardwareManager;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.sigma.SigmaUtils;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 import com.android.settings.R;
@@ -49,12 +49,12 @@ import com.android.settings.Utils;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.ActionFragment;
-import com.evolution.settings.preference.ButtonBacklightBrightness;
-import com.evolution.settings.preference.CustomDialogPreference;
-import com.evolution.settings.preference.SecureSettingSwitchPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
-import com.evolution.settings.utils.ButtonSettingsUtils;
+import com.sigma.settings.preference.ActionFragment;
+import com.sigma.settings.preference.ButtonBacklightBrightness;
+import com.sigma.settings.preference.CustomDialogPreference;
+import com.sigma.settings.preference.SecureSettingSwitchPreference;
+import com.sigma.settings.preference.SystemSettingSwitchPreference;
+import com.sigma.settings.utils.ButtonSettingsUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -110,7 +110,7 @@ public class Buttons extends ActionFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.evolution_settings_buttons);
+        addPreferencesFromResource(R.xml.sigma_settings_buttons);
 
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -200,7 +200,7 @@ public class Buttons extends ActionFragment implements
         mNavbarVisibility.setChecked(showing);
         mNavbarVisibility.setOnPreferenceChangeListener(this);
 
-        final boolean isThreeButtonNavbarEnabled = EvolutionUtils.isThemeEnabled("com.android.internal.systemui.navbar.threebutton");
+        final boolean isThreeButtonNavbarEnabled = SigmaUtils.isThemeEnabled("com.android.internal.systemui.navbar.threebutton");
         mNavbarInverse = (SystemSettingSwitchPreference) findPreference(KEY_NAVBAR_INVERSE);
         mNavbarInverse.setEnabled(isThreeButtonNavbarEnabled);
         mNavigationCompactLayout = (SystemSettingSwitchPreference) findPreference(KEY_NAVIGATION_COMPACT_LAYOUT);
@@ -281,7 +281,7 @@ public class Buttons extends ActionFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_buttons) {
+            new BaseSearchIndexProvider(R.xml.sigma_settings_buttons) {
 
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {

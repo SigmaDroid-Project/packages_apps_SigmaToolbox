@@ -17,7 +17,7 @@
  * class that holds target widget state
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import java.util.ArrayList;
 
@@ -28,9 +28,9 @@ import com.android.internal.util.hwkeys.Config;
 import com.android.internal.util.hwkeys.Config.ActionConfig;
 import com.android.internal.util.hwkeys.Config.ButtonConfig;
 
-import com.evolution.settings.preference.ShortcutPickHelper;
-import com.evolution.settings.preference.ActionPreference;
-import com.evolution.settings.preference.CustomActionListAdapter;
+import com.sigma.settings.preference.ShortcutPickHelper;
+import com.sigma.settings.preference.ActionPreference;
+import com.sigma.settings.preference.CustomActionListAdapter;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

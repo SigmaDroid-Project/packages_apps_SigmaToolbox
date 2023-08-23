@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -36,16 +36,16 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.sigma.SigmaUtils;
+import com.android.internal.util.sigma.ThemeUtils;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingEditTextPreference;
-import com.evolution.settings.preference.SystemSettingListPreference;
+import com.sigma.settings.preference.SystemSettingEditTextPreference;
+import com.sigma.settings.preference.SystemSettingListPreference;
 
 import java.util.List;
 
@@ -73,7 +73,7 @@ public class QuickSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_quicksettings;
+        return R.xml.sigma_settings_quicksettings;
     }
 
     @Override
@@ -251,5 +251,5 @@ public class QuickSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_quicksettings);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_quicksettings);
 }

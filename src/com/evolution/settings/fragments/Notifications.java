@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -35,16 +35,16 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.sigma.SigmaUtils;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
-import com.evolution.settings.preference.SystemSettingListPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.sigma.settings.preference.CustomSeekBarPreference;
+import com.sigma.settings.preference.SystemSettingListPreference;
+import com.sigma.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,7 +79,7 @@ public class Notifications extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_notifications;
+        return R.xml.sigma_settings_notifications;
     }
 
     @Override
@@ -92,11 +92,11 @@ public class Notifications extends DashboardFragment implements
         final Resources res = mContext.getResources();
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
-        if (!EvolutionUtils.isVoiceCapable(getActivity())) {
+        if (!SigmaUtils.isVoiceCapable(getActivity())) {
                 prefScreen.removePreference(incallVibCategory);
         }
 
-        if (!EvolutionUtils.deviceHasFlashlight(mContext)) {
+        if (!SigmaUtils.deviceHasFlashlight(mContext)) {
             PreferenceCategory flashOnCallCategory = (PreferenceCategory)
                     findPreference(FLASH_ON_CALL_OPTIONS);
             PreferenceCategory flashOnNotifCategory = (PreferenceCategory)
@@ -235,5 +235,5 @@ public class Notifications extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_notifications);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_notifications);
 }

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -55,7 +55,7 @@ public class Gestures extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_gestures;
+        return R.xml.sigma_settings_gestures;
     }
 
     @Override
@@ -100,5 +100,5 @@ public class Gestures extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_gestures);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_gestures);
 }

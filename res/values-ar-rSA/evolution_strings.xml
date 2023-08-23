@@ -96,16 +96,16 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel حركة</string>
     <string name="pixel_navbar_anim_summary">تمكين المؤثرات لزر الشاشة الرئيسية</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">الفريق</string>
-    <string name="evolution_about_summary">معلومات حول هذا النظام</string>
-    <string name="evolution_website_title">الموقع</string>
-    <string name="evolution_website_summary">اضغط هنا لزيارة موقع الويب الرائع لدينا!</string>
-    <string name="evolution_twitter_summary">اضغط هنا لزيارة تويتر!</string>
-    <string name="evolution_telegram_summary">اضغط هنا لزيارة مجتمعنا الرائع!</string>
-    <string name="evolution_github_summary">اضغط هنا لفتح GitHub!</string>
-    <string name="evolution_about_info_summary">التطور X هو قرص مخصص قابل للتفريق لجلب شعور بيكسل حقيقي لجهاز الأندرويد الخاص بك للوهلة الأولى، مع العديد من الإعدادات الإضافية تحت تصرفك. نحن نهدف إلى توفير المباني المتكررة مع التصحيحات الأمنية الشهرية من أحدث مصادر الارتفاع!</string>
-    <string name="evolution_about_team">حول التطور العاشر</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">الفريق</string>
+    <string name="sigma_about_summary">معلومات حول هذا النظام</string>
+    <string name="sigma_website_title">الموقع</string>
+    <string name="sigma_website_summary">اضغط هنا لزيارة موقع الويب الرائع لدينا!</string>
+    <string name="sigma_twitter_summary">اضغط هنا لزيارة تويتر!</string>
+    <string name="sigma_telegram_summary">اضغط هنا لزيارة مجتمعنا الرائع!</string>
+    <string name="sigma_github_summary">اضغط هنا لفتح GitHub!</string>
+    <string name="sigma_about_info_summary">التطور X هو قرص مخصص قابل للتفريق لجلب شعور بيكسل حقيقي لجهاز الأندرويد الخاص بك للوهلة الأولى، مع العديد من الإعدادات الإضافية تحت تصرفك. نحن نهدف إلى توفير المباني المتكررة مع التصحيحات الأمنية الشهرية من أحدث مصادر الارتفاع!</string>
+    <string name="sigma_about_team">حول التطور العاشر</string>
     <!-- Battery light -->
     <string name="light_settings_header">إعدادات الإضاءة</string>
     <string name="battery_light_settings">ضوء شحن البطارية</string>
@@ -1039,7 +1039,7 @@
     <string name="status_bar_logo_position_right">اليمين</string>
     <string name="status_bar_logo_position_left">اليسار</string>
     <string name="status_bar_logo_style_title">النمط</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_android">أندرويد</string>
     <string name="status_bar_logo_style_apple">أبل</string>
     <string name="status_bar_logo_style_ios">iOS</string>

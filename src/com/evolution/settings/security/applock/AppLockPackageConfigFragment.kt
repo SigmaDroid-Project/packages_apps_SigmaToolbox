@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.content.Context
 import android.content.pm.PackageInfo
@@ -28,12 +28,12 @@ import com.android.settings.widget.EntityHeaderController
 import com.android.settingslib.applications.ApplicationsState.AppEntry
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.widget.LayoutPreference
-import com.evolution.settings.EvolutionDashboardFragment
+import com.sigma.settings.SigmaDashboardFragment
 
 private val TAG = AppLockPackageConfigFragment::class.simpleName
 private const val KEY_HEADER = "header_view"
 
-class AppLockPackageConfigFragment : EvolutionDashboardFragment() {
+class AppLockPackageConfigFragment : SigmaDashboardFragment() {
 
     private lateinit var packageInfo: PackageInfo
 

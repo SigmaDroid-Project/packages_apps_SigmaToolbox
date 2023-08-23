@@ -21,7 +21,7 @@
         android:key="app_lock_packages"
         android:title="@string/app_lock_packages_title"
         android:summary="@string/app_lock_packages_summary"
-        android:fragment="com.evolution.settings.security.applock.AppLockPackageListFragment" />
+        android:fragment="com.sigma.settings.security.applock.AppLockPackageListFragment" />
 
     <ListPreference
         android:key="app_lock_timeout"
@@ -31,7 +31,7 @@
         android:entryValues="@array/app_lock_timeout_values"
         android:defaultValue="0"
         android:persistent="false"
-        settings:controller="com.evolution.settings.security.applock.AppLockTimeoutPreferenceController" />
+        settings:controller="com.sigma.settings.security.applock.AppLockTimeoutPreferenceController" />
 
     <SwitchPreference
         android:key="app_lock_biometrics_allowed"

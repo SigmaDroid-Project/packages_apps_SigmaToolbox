@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;

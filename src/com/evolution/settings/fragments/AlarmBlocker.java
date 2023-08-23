@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -284,7 +284,7 @@ public class AlarmBlocker extends SettingsPreferenceFragment implements
 
         mToast = Toast.makeText(getActivity(), R.string.blocker_action_save_toast, Toast.LENGTH_LONG);
         mToast.show();
-        
+
     }
 
     private void reload() {

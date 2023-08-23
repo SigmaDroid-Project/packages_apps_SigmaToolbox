@@ -18,7 +18,7 @@
  * key is identical to the target ConfigMap tag in ActionConstants
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import java.util.Map;
 

@@ -9,14 +9,14 @@
     android:title="@string/animation_title">
 
     <!-- Charging animation -->
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="charging_animation"
         android:title="@string/charging_animation_title"
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
 
     <!-- Screen Off animation -->
-    <com.evolution.settings.preference.SystemSettingListPreference
+    <com.sigma.settings.preference.SystemSettingListPreference
         android:key="screen_off_animation"
         android:title="@string/screen_off_animation_title"
         android:entries="@array/screen_off_animation_entries"

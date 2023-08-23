@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import android.os.Bundle;
 import android.provider.Settings;

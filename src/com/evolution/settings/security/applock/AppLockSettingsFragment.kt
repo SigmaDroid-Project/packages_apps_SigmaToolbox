@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.content.Context
 import android.os.SystemProperties
@@ -28,16 +28,16 @@ import com.android.settings.R
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.search.SearchIndexable
-import com.evolution.settings.EvolutionDashboardFragment
+import com.sigma.settings.SigmaDashboardFragment
 
 @SearchIndexable
-class AppLockSettingsFragment : EvolutionDashboardFragment(),
+class AppLockSettingsFragment : SigmaDashboardFragment(),
     MenuItem.OnMenuItemClickListener {
 
     private var debugEnabled = SystemProperties.get(DEBUG_PROPERTY, null) == LEVEL_DEBUG
     private var handledClick = false
 
-    override protected fun getPreferenceScreenResId() = R.xml.evolution_settings_app_lock
+    override protected fun getPreferenceScreenResId() = R.xml.sigma_settings_app_lock
 
     override protected fun getLogTag() = TAG
 
@@ -78,6 +78,6 @@ class AppLockSettingsFragment : EvolutionDashboardFragment(),
         private const val MENU_ITEM_DEBUG_ID = 101
 
         @JvmField
-        val SEARCH_INDEX_DATA_PROVIDER = BaseSearchIndexProvider(R.xml.evolution_settings_app_lock)
+        val SEARCH_INDEX_DATA_PROVIDER = BaseSearchIndexProvider(R.xml.sigma_settings_app_lock)
     }
 }

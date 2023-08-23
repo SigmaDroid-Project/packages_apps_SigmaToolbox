@@ -12,12 +12,12 @@
         android:key="headsup_notifications_category"
         android:title="@string/headsup_category">
 
-        <com.evolution.settings.preference.GlobalSettingPrimarySwitchPreference
+        <com.sigma.settings.preference.GlobalSettingPrimarySwitchPreference
             android:key="heads_up_notifications_enabled"
             android:summary="@string/notification_heads_up_summary"
             android:title="@string/notification_heads_up_title"
             android:defaultValue="true"
-            android:fragment="com.evolution.settings.fragments.HeadsUpSettings"
+            android:fragment="com.sigma.settings.fragments.HeadsUpSettings"
             settings:observe="true" />
 
     </PreferenceCategory>
@@ -26,53 +26,53 @@
         android:key="notifications_general_category"
         android:title="@string/general_title">
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="reticker_status"
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:dependency="reticker_status"
             android:key="reticker_landscape_only"
             android:title="@string/reticker_landscape_only_title"
             android:summary="@string/reticker_landscape_only_summary"
             android:defaultValue="false" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:dependency="reticker_status"
             android:key="reticker_colored"
             android:title="@string/reticker_colored_title"
             android:summary="@string/reticker_colored_summary"
             android:defaultValue="false" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="notification_sound_vib_screen_on"
             android:title="@string/notification_sound_vib_screen_on_title"
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"
             android:title="@string/notification_guts_kill_app_button_title"
             android:summary="@string/notification_guts_kill_app_button_summary"
             android:defaultValue="false" />
 
         <!--
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="media_artwork_blur_enabled"
             android:title="@string/artwork_media_background_enable_blur_title"
             android:defaultValue="false" />
 
-        <com.evolution.settings.preference.SystemSettingSeekBarPreference
+        <com.sigma.settings.preference.SystemSettingSeekBarPreference
             android:key="media_artwork_blur_radius"
             android:title="@string/artwork_media_background_blur_radius_title"
-            android:dependency="media_artwork_blur_enabled" 
+            android:dependency="media_artwork_blur_enabled"
             android:defaultValue="1"
             android:max="125"
             settings:min="5" />
 
-        <com.evolution.settings.preference.SystemSettingSeekBarPreference
+        <com.sigma.settings.preference.SystemSettingSeekBarPreference
             android:key="media_artwork_fade_percent"
             android:title="@string/media_artwork_fade_percent_title"
             android:defaultValue="30"
@@ -99,7 +99,7 @@
             android:key="charging_light"
             android:title="@string/battery_light_settings"
             android:summary="@string/battery_light_summary"
-            android:fragment="com.evolution.settings.fragments.BatteryLight" />
+            android:fragment="com.sigma.settings.fragments.BatteryLight" />
 
     </PreferenceCategory>
 
@@ -107,20 +107,20 @@
         android:key="on_call_flashlight_category"
         android:title="@string/on_call_flashlight_category">
 
-        <com.evolution.settings.preference.SystemSettingListPreference
+        <com.sigma.settings.preference.SystemSettingListPreference
             android:key="flashlight_on_call"
             android:title="@string/flashlight_on_call_title"
             android:entries="@array/flashlight_on_call_entries"
             android:entryValues="@array/flashlight_on_call_values"
             android:defaultValue="0" />
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="flashlight_on_call_ignore_dnd"
             android:title="@string/flashlight_on_call_ignore_dnd_title"
             android:summary="@string/flashlight_on_call_ignore_dnd_summary"
-            android:defaultValue="false" /> 
+            android:defaultValue="false" />
 
-        <com.evolution.settings.preference.CustomSeekBarPreference
+        <com.sigma.settings.preference.CustomSeekBarPreference
             android:key="flashlight_on_call_rate"
             android:title="@string/flashlight_on_call_rate_title"
             android:summary="@string/flashlight_on_call_rate_summary"
@@ -143,7 +143,7 @@
             android:defaultValue="false" />
 
         <!-- Flashlight blinking times -->
-        <com.evolution.settings.preference.CustomSeekBarPreference
+        <com.sigma.settings.preference.CustomSeekBarPreference
             android:key="default_notification_torch1"
             android:title="@string/notification_torch_slider1"
             android:max="10"
@@ -153,7 +153,7 @@
             settings:units="@string/unit_times" />
 
         <!-- Flashlight blinking rate -->
-        <com.evolution.settings.preference.CustomSeekBarPreference
+        <com.sigma.settings.preference.CustomSeekBarPreference
             android:key="default_notification_torch2"
             android:title="@string/notification_torch_slider2"
             android:max="10"
@@ -168,17 +168,17 @@
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category">
 
-         <com.evolution.settings.preference.SystemSettingSwitchPreference
+         <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
             android:defaultValue="false" />
 
-         <com.evolution.settings.preference.SystemSettingSwitchPreference
+         <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
             android:defaultValue="false" />
 
-         <com.evolution.settings.preference.SystemSettingSwitchPreference
+         <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />

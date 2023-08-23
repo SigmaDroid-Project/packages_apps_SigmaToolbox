@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.app.AppLockManager
 import android.content.Context
@@ -22,7 +22,7 @@ import android.content.Context
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
-import com.evolution.settings.EvolutionTogglePreferenceController
+import com.sigma.settings.SigmaTogglePreferenceController
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -35,7 +35,7 @@ class AppLockNotificationRedactionPC(
     context: Context,
     private val packageName: String,
     private val coroutineScope: CoroutineScope
-) : EvolutionTogglePreferenceController(context, KEY) {
+) : SigmaTogglePreferenceController(context, KEY) {
 
     private val appLockManager = context.getSystemService(AppLockManager::class.java)
     private var shouldRedactNotification = AppLockManager.DEFAULT_REDACT_NOTIFICATION

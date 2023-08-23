@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Đảo ngược bố cục</string>
     <string name="navbar_invert_layout_summary">Đảo ngược bố cục của thanh điều hướng và các mục khác, chẳng hạn như trình chuyển đổi IME</string>
     <string name="system_navigation_summary">Chọn kiểu điều hướng hệ thống sẽ sử dụng</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Đội ngũ</string>
-    <string name="evolution_about_summary">Thông tin về Nhóm </string>
-    <string name="evolution_website_title">Trang web</string>
-    <string name="evolution_website_summary">Chạm để đến website</string>
-    <string name="evolution_twitter_summary">Ghé thăm trang Twitter</string>
-    <string name="evolution_telegram_summary">Chạm để ghé thăm cộng đồng của chúng tôi!</string>
-    <string name="evolution_github_summary">Chạm để mở Github!</string>
-    <string name="evolution_about_info_summary">Evolution X là ROM tùy chỉnh dựa trên AOSP, với mục tiêu cung cấp cảm giác giống Pixel nhất có thể với nhiều tính năng tùy chỉnh. Kể từ Android Pie, chúng tôi đã mang thương hiệu Android của riêng mình đến các thiết bị của bạn. Chúng tôi sẽ tiếp tục cung cấp các bản cập nhật ổn định và nhiều tính năng cho những người dùng trung thành của chúng tôi.</string>
-    <string name="evolution_about_team">Nhóm Evolution X</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Đội ngũ</string>
+    <string name="sigma_about_summary">Thông tin về Nhóm </string>
+    <string name="sigma_website_title">Trang web</string>
+    <string name="sigma_website_summary">Chạm để đến website</string>
+    <string name="sigma_twitter_summary">Ghé thăm trang Twitter</string>
+    <string name="sigma_telegram_summary">Chạm để ghé thăm cộng đồng của chúng tôi!</string>
+    <string name="sigma_github_summary">Chạm để mở Github!</string>
+    <string name="sigma_about_info_summary">SigmaDroid là ROM tùy chỉnh dựa trên AOSP, với mục tiêu cung cấp cảm giác giống Pixel nhất có thể với nhiều tính năng tùy chỉnh. Kể từ Android Pie, chúng tôi đã mang thương hiệu Android của riêng mình đến các thiết bị của bạn. Chúng tôi sẽ tiếp tục cung cấp các bản cập nhật ổn định và nhiều tính năng cho những người dùng trung thành của chúng tôi.</string>
+    <string name="sigma_about_team">Nhóm SigmaDroid</string>
     <!-- Battery light -->
     <string name="light_settings_header">Cài đặt đèn</string>
     <string name="battery_light_settings">Đèn báo sạc pin</string>
@@ -816,7 +816,7 @@
     <string name="status_bar_logo_position_right">Bên phải</string>
     <string name="status_bar_logo_position_left">Bên trái</string>
     <string name="status_bar_logo_style_title">Kiểu biểu tượng</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Người ngoài hành tinh</string>
@@ -961,8 +961,8 @@
     <string name="power_menu_animation_translucent_bottom">Mờ (dưới)</string>
     <string name="power_menu_animation_rotate">Xoay</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Thay đổi hiện tại</string>
-    <string name="changelog_evolution_summary">Xem các thay đổi gần đây trong ROM</string>
+    <string name="changelog_sigma_title">Thay đổi hiện tại</string>
+    <string name="changelog_sigma_summary">Xem các thay đổi gần đây trong ROM</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Không gian song song</string>
     <string name="laboratory_parallel_space_summary">Cho phép nhân bản ứng dụng để sử dụng nhiều tài khoản</string>

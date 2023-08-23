@@ -6,107 +6,107 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/evolution_about_title">
+    android:title="@string/sigma_about_title">
 
-    <!-- Evolution X logo -->
+    <!-- SigmaDroid logo -->
     <PreferenceScreen
-        android:key="evolution_logo"
+        android:key="sigma_logo"
         android:clickable="true"
-        android:layout="@layout/evolution_logo">
+        android:layout="@layout/sigma_logo">
         <intent
-            android:targetPackage="org.evolution.easteregg"
-            android:targetClass="org.evolution.easteregg.EasterEgg" />
+            android:targetPackage="org.sigma.easteregg"
+            android:targetClass="org.sigma.easteregg.EasterEgg" />
     </PreferenceScreen>
 
-    <!-- About Evolution X -->
+    <!-- About SigmaDroid -->
     <PreferenceCategory
-        android:key="evolution_about_summary"
-        android:title="@string/evolution_about_summary" />
+        android:key="sigma_about_summary"
+        android:title="@string/sigma_about_summary" />
 
         <Preference
             android:selectable="false"
             settings:searchable="false"
-            android:summary="@string/evolution_about_info_summary" />
+            android:summary="@string/sigma_about_info_summary" />
 
-        <!-- Evolution X Changelog -->
+        <!-- SigmaDroid Changelog -->
         <Preference
-            android:key="evolution_changelog"
+            android:key="sigma_changelog"
             android:icon="@drawable/ic_changelog"
-            android:title="@string/changelog_evolution_title"
-            android:summary="@string/changelog_evolution_summary">
+            android:title="@string/changelog_sigma_title"
+            android:summary="@string/changelog_sigma_summary">
             <intent android:action="android.intent.action.MAIN"
                  android:targetPackage="com.android.settings"
-                 android:targetClass="com.evolution.settings.about.ChangelogActivity"/>
+                 android:targetClass="com.sigma.settings.about.ChangelogActivity"/>
         </Preference>
 
         <Preference
-            android:title="@string/evolution_website_title"
-            android:icon="@drawable/ic_settings_evolution_about"
-            android:summary="@string/evolution_website_summary">
+            android:title="@string/sigma_website_title"
+            android:icon="@drawable/ic_settings_sigma_about"
+            android:summary="@string/sigma_website_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://evolution-x.org" />
+                android:data="https://sigmadroid.org" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_telegram_title"
+            android:title="@string/sigma_telegram_title"
             android:icon="@drawable/ic_telegram"
-            android:summary="@string/evolution_telegram_summary">
+            android:summary="@string/sigma_telegram_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/EvolutionX" />
+                android:data="https://t.me/PantahRomsPixel7and7Pro" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_twitter_title"
+            android:title="@string/sigma_twitter_title"
             android:icon="@drawable/ic_twitter"
-            android:summary="@string/evolution_twitter_summary">
+            android:summary="@string/sigma_twitter_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://twitter.com/EvolutionXROM" />
+                android:data="https://twitter.com/SigmaDroidROM" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_github_title"
+            android:title="@string/sigma_github_title"
             android:icon="@drawable/ic_github"
-            android:summary="@string/evolution_github_summary">
+            android:summary="@string/sigma_github_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/Evolution-X" />
+                android:data="https://github.com/SigmaDroid-Project" />
         </Preference>
 
-    <!-- Team Evolution X -->
+    <!-- Team SigmaDroid -->
     <PreferenceCategory
         android:key="about_team"
-        android:title="@string/evolution_about_team" />
+        android:title="@string/sigma_about_team" />
 
         <Preference
-            android:title="@string/evolution_about_joey"
-            android:summary="@string/evolution_about_joey_summary">
+            android:title="@string/sigma_about_joey"
+            android:summary="@string/sigma_about_joey_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://linktr.ee/Shaughzam" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_about_akito"
-            android:summary="@string/evolution_about_akito_summary">
+            android:title="@string/sigma_about_akito"
+            android:summary="@string/sigma_about_akito_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://twitter.com/RAkitoHaruka" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_about_anierin"
-            android:summary="@string/evolution_about_anierin_summary">
+            android:title="@string/sigma_about_anierin"
+            android:summary="@string/sigma_about_anierin_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://twitter.com/AnierinB" />
         </Preference>
 
         <Preference
-            android:title="@string/evolution_about_aggelos"
-            android:summary="@string/evolution_about_aggelos_summary">
+            android:title="@string/sigma_about_aggelos"
+            android:summary="@string/sigma_about_aggelos_summary">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://forum.xda-developers.com/member.php?u=8065843" />

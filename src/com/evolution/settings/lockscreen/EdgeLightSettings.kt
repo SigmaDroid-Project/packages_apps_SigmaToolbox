@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.lockscreen
+package com.sigma.settings.lockscreen
 
 import android.content.Context
 import android.os.Bundle
@@ -30,10 +30,10 @@ import com.android.settingslib.search.SearchIndexable
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.OnMainSwitchChangeListener
 import com.android.settingslib.widget.TopIntroPreference
-import com.evolution.settings.EvolutionDashboardFragment
+import com.sigma.settings.SigmaDashboardFragment
 
 @SearchIndexable
-class EdgeLightSettings : EvolutionDashboardFragment(), OnMainSwitchChangeListener {
+class EdgeLightSettings : SigmaDashboardFragment(), OnMainSwitchChangeListener {
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         super.onCreatePreferences(savedInstanceState, rootKey)
@@ -43,7 +43,7 @@ class EdgeLightSettings : EvolutionDashboardFragment(), OnMainSwitchChangeListen
         }
     }
 
-    override protected fun getPreferenceScreenResId() = R.xml.evolution_settings_edge_light
+    override protected fun getPreferenceScreenResId() = R.xml.sigma_settings_edge_light
 
     override protected fun getLogTag() = TAG
 
@@ -77,7 +77,7 @@ class EdgeLightSettings : EvolutionDashboardFragment(), OnMainSwitchChangeListen
         )
 
         @JvmField
-        val SEARCH_INDEX_DATA_PROVIDER = object : BaseSearchIndexProvider(R.xml.evolution_settings_edge_light) {
+        val SEARCH_INDEX_DATA_PROVIDER = object : BaseSearchIndexProvider(R.xml.sigma_settings_edge_light) {
             override fun createPreferenceControllers(
                 context: Context
             ): List<AbstractPreferenceController> = buildPreferenceControllers(

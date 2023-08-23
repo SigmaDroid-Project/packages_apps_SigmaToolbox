@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -52,9 +52,9 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.AppListPreference;
-import com.evolution.settings.preference.PackageListAdapter;
-import com.evolution.settings.preference.PackageListAdapter.PackageItem;
+import com.sigma.settings.preference.AppListPreference;
+import com.sigma.settings.preference.PackageListAdapter;
+import com.sigma.settings.preference.PackageListAdapter.PackageItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -82,7 +82,7 @@ public class SensorBlockSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_sensor_block;
+        return R.xml.sigma_settings_sensor_block;
     }
 
     @Override
@@ -337,5 +337,5 @@ public class SensorBlockSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_sensor_block);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_sensor_block);
 }

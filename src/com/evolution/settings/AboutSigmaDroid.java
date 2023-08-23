@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings;
+package com.sigma.settings;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -25,12 +25,12 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 
-public class AboutEvolutionX extends DashboardFragment {
+public class AboutSigmaDroid extends DashboardFragment {
 
-    private static final String TAG = "AboutEvolutionX";
+    private static final String TAG = "AboutSigmaDroid";
 
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_about;
+        return R.xml.sigma_settings_about;
     }
 
     @Override

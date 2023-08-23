@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -284,7 +284,7 @@ public class WakeLockBlocker extends SettingsPreferenceFragment implements
 
         mToast = Toast.makeText(getActivity(), R.string.blocker_action_save_toast, Toast.LENGTH_LONG);
         mToast.show();
-        
+
     }
 
     private void reload() {

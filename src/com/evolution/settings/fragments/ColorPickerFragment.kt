@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments
+package com.sigma.settings.fragments
 
 import android.annotation.ColorInt
 import android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT

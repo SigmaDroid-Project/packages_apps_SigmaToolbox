@@ -99,16 +99,16 @@
     <string name="navbar_invert_layout_title">Invertir la disposició</string>
     <string name="navbar_invert_layout_summary">Inverteix el disseny de la barra de navegació i altres elements, com el commutador IME</string>
     <string name="system_navigation_summary">Elegir que estil de navegació del sistema usar</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Equip de desenvolupament</string>
-    <string name="evolution_about_summary">Informació sobre l\' equip</string>
-    <string name="evolution_website_title">Lloc web</string>
-    <string name="evolution_website_summary">¡Pulsa aquí per visitar el nostre impressionant lloc web!</string>
-    <string name="evolution_twitter_summary">¡Pulsa aquí per visitar el nostre Twitter!</string>
-    <string name="evolution_telegram_summary">¡Pulsa aquí per visitar la nostra increïble comunitat!</string>
-    <string name="evolution_github_summary">¡Pulsa aquí per obrir el nostre Github!</string>
-    <string name="evolution_about_info_summary">Evolution X és una ROM personalitzada l\'objectiu principal de la qual és oferir l\'experiència de Pixel al teu dispositiu Android, amb molta personalització. El nostre objectiu és proporcionar mensualment actualitzacions amb la seguretat de les últimes fonts d\'Android.</string>
-    <string name="evolution_about_team">Col·laboradors</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Equip de desenvolupament</string>
+    <string name="sigma_about_summary">Informació sobre l\' equip</string>
+    <string name="sigma_website_title">Lloc web</string>
+    <string name="sigma_website_summary">¡Pulsa aquí per visitar el nostre impressionant lloc web!</string>
+    <string name="sigma_twitter_summary">¡Pulsa aquí per visitar el nostre Twitter!</string>
+    <string name="sigma_telegram_summary">¡Pulsa aquí per visitar la nostra increïble comunitat!</string>
+    <string name="sigma_github_summary">¡Pulsa aquí per obrir el nostre Github!</string>
+    <string name="sigma_about_info_summary">SigmaDroid és una ROM personalitzada l\'objectiu principal de la qual és oferir l\'experiència de Pixel al teu dispositiu Android, amb molta personalització. El nostre objectiu és proporcionar mensualment actualitzacions amb la seguretat de les últimes fonts d\'Android.</string>
+    <string name="sigma_about_team">Col·laboradors</string>
     <!-- Battery light -->
     <string name="light_settings_header">Ajustaments d\' enllumenat</string>
     <string name="battery_light_settings">Llum indicadora de bateria</string>
@@ -809,7 +809,7 @@
     <string name="status_bar_logo_position_right">Dreta</string>
     <string name="status_bar_logo_position_left">Esquerra</string>
     <string name="status_bar_logo_style_title">Estil</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_amogus">Among us</string>
@@ -941,8 +941,8 @@
     <string name="power_menu_animation_translucent_bottom">Traslúcida (a baix)</string>
     <string name="power_menu_animation_rotate">Rotar</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Registre de canvis</string>
-    <string name="changelog_evolution_summary">Veure els canvis recents de la ROM</string>
+    <string name="changelog_sigma_title">Registre de canvis</string>
+    <string name="changelog_sigma_summary">Veure els canvis recents de la ROM</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Espai paral·lel</string>
     <string name="laboratory_parallel_space_summary">Permet executar diverses versions d\'una mateixa aplicació en paral·lel</string>

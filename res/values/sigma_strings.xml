@@ -124,27 +124,27 @@
     <string name="navbar_invert_layout_summary">Inverts the layout of the navigation bar and other items, such as the IME switcher</string>
     <string name="system_navigation_summary">Choose which system navigation style to use</string>
 
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">The Team</string>
-    <string name="evolution_about_summary">Information about our ROM</string>
-    <string name="evolution_website_title">Website</string>
-    <string name="evolution_website_summary">Feel free to drop by our website</string>
-    <string name="evolution_twitter_title" translatable="false">Twitter</string>
-    <string name="evolution_twitter_summary">Come see our tweets</string>
-    <string name="evolution_telegram_title" translatable="false">Telegram</string>
-    <string name="evolution_telegram_summary">Visit our community chat</string>
-    <string name="evolution_github_title" translatable="false">GitHub</string>
-    <string name="evolution_github_summary">Check out our GitHub</string>
-    <string name="evolution_about_info_summary">Evolution X is a custom ROM that aims to bring a Pixel feel to your device at first glance. With additional configurations at your disposal, we provide builds with monthly security patches from the latest Android sources.</string>
-    <string name="evolution_about_team">Contributors</string>
-    <string name="evolution_about_joey" translatable="false">Joey Huab</string>
-    <string name="evolution_about_joey_summary" translatable="false">Founder/Lead Developer</string>
-    <string name="evolution_about_akito" translatable="false">Akito Mizukito</string>
-    <string name="evolution_about_akito_summary" translatable="false">Project Manager</string>
-    <string name="evolution_about_aggelos" translatable="false">Aggelos Savvopoulos</string>
-    <string name="evolution_about_aggelos_summary" translatable="false">Maintainer Relations</string>
-    <string name="evolution_about_anierin" translatable="false">Anierin Bliss</string>
-    <string name="evolution_about_anierin_summary" translatable="false">Project Specialist</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">The Team</string>
+    <string name="sigma_about_summary">Information about our ROM</string>
+    <string name="sigma_website_title">Website</string>
+    <string name="sigma_website_summary">Feel free to drop by our website</string>
+    <string name="sigma_twitter_title" translatable="false">Twitter</string>
+    <string name="sigma_twitter_summary">Come see our tweets</string>
+    <string name="sigma_telegram_title" translatable="false">Telegram</string>
+    <string name="sigma_telegram_summary">Visit our community chat</string>
+    <string name="sigma_github_title" translatable="false">GitHub</string>
+    <string name="sigma_github_summary">Check out our GitHub</string>
+    <string name="sigma_about_info_summary">SigmaDroid is a custom ROM that aims to bring a Pixel feel to your device at first glance. With additional configurations at your disposal, we provide builds with monthly security patches from the latest Android sources.</string>
+    <string name="sigma_about_team">Contributors</string>
+    <string name="sigma_about_joey" translatable="false">Joey Huab</string>
+    <string name="sigma_about_joey_summary" translatable="false">Founder/Lead Developer</string>
+    <string name="sigma_about_akito" translatable="false">Akito Mizukito</string>
+    <string name="sigma_about_akito_summary" translatable="false">Project Manager</string>
+    <string name="sigma_about_aggelos" translatable="false">Aggelos Savvopoulos</string>
+    <string name="sigma_about_aggelos_summary" translatable="false">Maintainer Relations</string>
+    <string name="sigma_about_anierin" translatable="false">Anierin Bliss</string>
+    <string name="sigma_about_anierin_summary" translatable="false">Project Specialist</string>
 
     <!-- Battery light -->
     <string name="light_settings_header">Light settings</string>
@@ -969,7 +969,7 @@
     <string name="status_bar_logo_position_right">Right</string>
     <string name="status_bar_logo_position_left">Left</string>
     <string name="status_bar_logo_style_title">Style</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Alien</string>
@@ -1029,7 +1029,7 @@
     <string name="status_bar_battery_percent_title">Battery percent</string>
     <string name="status_bar_battery_percent_hidden">Hidden</string>
     <string name="status_bar_battery_percent_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percent_text_next">Next to the icon</string> 
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
@@ -1105,17 +1105,17 @@
     <string name="hide_from_launcher_summary">
         Prevent this application from showing up in the launcher. Requires a launcher restart for changes to take effect.
     </string>
-    
+
     <!-- Alert Slider category (OnePlus devices) -->
     <string name="alert_slider_cat_title">Alert slider</string>
 
     <!-- Alert Slider Pulse (OnePlus devices) -->
     <string name="alert_slider_pulse_title">Alert slider pulse</string>
-    <string name="alert_slider_pulse_summary">Pulse ambient display when changing alert slider position</string>    
+    <string name="alert_slider_pulse_summary">Pulse ambient display when changing alert slider position</string>
 
     <!-- Alert Slider block -->
     <string name="block_alert_title">Block Alert slider</string>
-    <string name="block_alert_summary">Pocket mode will block the Alert slider</string> 
+    <string name="block_alert_summary">Pocket mode will block the Alert slider</string>
 
     <!-- Power menu Animations -->
     <string name="power_menu_animation_title">Power menu animation</string>
@@ -1130,8 +1130,8 @@
     <string name="power_menu_animation_rotate">Rotate</string>
 
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Current changelog</string>
-    <string name="changelog_evolution_summary">View the recent changes in the ROM</string>
+    <string name="changelog_sigma_title">Current changelog</string>
+    <string name="changelog_sigma_summary">View the recent changes in the ROM</string>
 
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Parallel space</string>
@@ -1219,7 +1219,7 @@
     <string name="qs_footer_text_title">QS footer text</string>
     <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
     <string name="qs_footer_text_string_title">Customize footer text</string>
-    <string name="qs_footer_text_string_summary">Set to empty for default</string> 
+    <string name="qs_footer_text_string_summary">Set to empty for default</string>
 
     <!-- Settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings style</string>

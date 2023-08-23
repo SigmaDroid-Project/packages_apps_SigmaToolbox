@@ -23,12 +23,12 @@
         android:key="heads_up_notifications_intro"
         android:title="@string/notification_heads_up_summary" />
 
-    <com.evolution.settings.preference.GlobalSettingMainSwitchPreference
+    <com.sigma.settings.preference.GlobalSettingMainSwitchPreference
         android:key="heads_up_notifications_enabled"
         android:title="@string/notification_heads_up_main_switch_title"
         android:defaultValue="true" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.sigma.settings.preference.SystemSettingSeekBarPreference
         android:key="heads_up_timeout"
         android:title="@string/notification_heads_up_timeout_title"
         android:summary="@string/notification_heads_up_timeout_summary"
@@ -38,7 +38,7 @@
         android:max="10"
         android:dependency="heads_up_notifications_enabled" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="less_boring_heads_up"
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"

@@ -95,16 +95,16 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Κίνηση εικονοστοιχείων</string>
     <string name="pixel_navbar_anim_summary">Εναλλαγή κίνησης κουμπιού αρχικής σελίδας</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Η Ομάδα</string>
-    <string name="evolution_about_summary">Πληροφορίες για την ομάδα</string>
-    <string name="evolution_website_title">Ιστοσελίδα</string>
-    <string name="evolution_website_summary">Μη διστάσετε να επισκεφθείτε τον ιστότοπό μας</string>
-    <string name="evolution_twitter_summary">Ελάτε να δείτε τα tweets μας</string>
-    <string name="evolution_telegram_summary">Επισκεφτείτε την κοινοτική συνομιλία μας</string>
-    <string name="evolution_github_summary">Δείτε το GitHub μας</string>
-    <string name="evolution_about_info_summary">Το Evolution X είναι ένα προσαρμοσμένο ROM που στοχεύει να φέρει μια αίσθηση Pixel στη συσκευή σας με την πρώτη ματιά. Με πρόσθετες διαμορφώσεις στη διάθεσή σας, παρέχουμε μηνιαίες ενημερώσεις κώδικα ασφαλείας από τις τελευταίες πηγές Android.</string>
-    <string name="evolution_about_team">Η ομάδα του Evolution X</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Η Ομάδα</string>
+    <string name="sigma_about_summary">Πληροφορίες για την ομάδα</string>
+    <string name="sigma_website_title">Ιστοσελίδα</string>
+    <string name="sigma_website_summary">Μη διστάσετε να επισκεφθείτε τον ιστότοπό μας</string>
+    <string name="sigma_twitter_summary">Ελάτε να δείτε τα tweets μας</string>
+    <string name="sigma_telegram_summary">Επισκεφτείτε την κοινοτική συνομιλία μας</string>
+    <string name="sigma_github_summary">Δείτε το GitHub μας</string>
+    <string name="sigma_about_info_summary">Το SigmaDroid είναι ένα προσαρμοσμένο ROM που στοχεύει να φέρει μια αίσθηση Pixel στη συσκευή σας με την πρώτη ματιά. Με πρόσθετες διαμορφώσεις στη διάθεσή σας, παρέχουμε μηνιαίες ενημερώσεις κώδικα ασφαλείας από τις τελευταίες πηγές Android.</string>
+    <string name="sigma_about_team">Η ομάδα του SigmaDroid</string>
     <!-- Battery light -->
     <string name="light_settings_header">Ρυθμίσεις φωτισμού</string>
     <string name="battery_light_settings">Φωτισμός φόρτισης μπαταρίας</string>
@@ -1031,7 +1031,7 @@
     <string name="status_bar_logo_position_right">Δεξιά</string>
     <string name="status_bar_logo_position_left">Αριστερά</string>
     <string name="status_bar_logo_style_title">Στυλ</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>

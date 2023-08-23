@@ -100,16 +100,16 @@
     <string name="navbar_invert_layout_title">レイアウトを反転</string>
     <string name="navbar_invert_layout_summary">ナビゲーションバーや IEM 切替えのようなその他の項目のレイアウトを反転させる</string>
     <string name="system_navigation_summary">使用するシステムナビゲーションバーのスタイルを選択する</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">チーム</string>
-    <string name="evolution_about_summary">チームに関する情報</string>
-    <string name="evolution_website_title">ウェブサイト</string>
-    <string name="evolution_website_summary">こちらをタップして我々の素晴らしいウェブサイトをご覧下さい!</string>
-    <string name="evolution_twitter_summary">こちらをタップして私たちの Twitter をご覧下さい!</string>
-    <string name="evolution_telegram_summary">ここをタップして素晴らしいコミュニティを訪れましょう!</string>
-    <string name="evolution_github_summary">ここをタップして GitHub を開きます!</string>
-    <string name="evolution_about_info_summary">Evolution X はまるで Pixel デバイスを使っているように感じさせることを目的としているカスタム ROM です。豊富な追加の設定と共に、私達は Android ソースコードから最新のマンスリーセキュリティパッチを適用したビルドを提供します。</string>
-    <string name="evolution_about_team">チーム Evolution X</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">チーム</string>
+    <string name="sigma_about_summary">チームに関する情報</string>
+    <string name="sigma_website_title">ウェブサイト</string>
+    <string name="sigma_website_summary">こちらをタップして我々の素晴らしいウェブサイトをご覧下さい!</string>
+    <string name="sigma_twitter_summary">こちらをタップして私たちの Twitter をご覧下さい!</string>
+    <string name="sigma_telegram_summary">ここをタップして素晴らしいコミュニティを訪れましょう!</string>
+    <string name="sigma_github_summary">ここをタップして GitHub を開きます!</string>
+    <string name="sigma_about_info_summary">SigmaDroid はまるで Pixel デバイスを使っているように感じさせることを目的としているカスタム ROM です。豊富な追加の設定と共に、私達は Android ソースコードから最新のマンスリーセキュリティパッチを適用したビルドを提供します。</string>
+    <string name="sigma_about_team">チーム SigmaDroid</string>
     <!-- Battery light -->
     <string name="light_settings_header">ライトの設定</string>
     <string name="battery_light_settings">充電時のライト</string>
@@ -810,7 +810,7 @@
     <string name="status_bar_logo_position_right">右</string>
     <string name="status_bar_logo_position_left">左</string>
     <string name="status_bar_logo_style_title">スタイル</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_amogus">Amogus</string>
@@ -942,8 +942,8 @@
     <string name="power_menu_animation_translucent_bottom">半透明 (下)</string>
     <string name="power_menu_animation_rotate">回転</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">現在の更新履歴</string>
-    <string name="changelog_evolution_summary">ROM の最近の更新を表示する</string>
+    <string name="changelog_sigma_title">現在の更新履歴</string>
+    <string name="changelog_sigma_summary">ROM の最近の更新を表示する</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">パラレルスペース</string>
     <string name="laboratory_parallel_space_summary">同じアプリの複数のインスタンスが同時に動作できるようにします</string>

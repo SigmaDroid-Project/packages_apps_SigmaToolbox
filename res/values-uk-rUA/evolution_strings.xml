@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Інвертувати порядок кнопок</string>
     <string name="navbar_invert_layout_summary">Інвертує схему панелі навігації та інших елементів, наприклад, перемикач IME</string>
     <string name="system_navigation_summary">Виберіть системний стиль навігації</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Команда</string>
-    <string name="evolution_about_summary">Інформація про нашу прошивку</string>
-    <string name="evolution_website_title">Сайт</string>
-    <string name="evolution_website_summary">Загляньте до нашої вебсторінки</string>
-    <string name="evolution_twitter_summary">Подивіться наші твіти</string>
-    <string name="evolution_telegram_summary">Відвідайте наш чат спільноти</string>
-    <string name="evolution_github_summary">Наш GitHub</string>
-    <string name="evolution_about_info_summary">Evolution X - це користувацька прошивка, заснована на AOSP, з метою забезпечити відчуття як у телефонах Pixel. Маючи у вашому розпорядженні додаткові конфігурації, ми надаємо збірки з щомісячними патчами безпеки з останніх джерел Android.</string>
-    <string name="evolution_about_team">Учасники</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Команда</string>
+    <string name="sigma_about_summary">Інформація про нашу прошивку</string>
+    <string name="sigma_website_title">Сайт</string>
+    <string name="sigma_website_summary">Загляньте до нашої вебсторінки</string>
+    <string name="sigma_twitter_summary">Подивіться наші твіти</string>
+    <string name="sigma_telegram_summary">Відвідайте наш чат спільноти</string>
+    <string name="sigma_github_summary">Наш GitHub</string>
+    <string name="sigma_about_info_summary">SigmaDroid - це користувацька прошивка, заснована на AOSP, з метою забезпечити відчуття як у телефонах Pixel. Маючи у вашому розпорядженні додаткові конфігурації, ми надаємо збірки з щомісячними патчами безпеки з останніх джерел Android.</string>
+    <string name="sigma_about_team">Учасники</string>
     <!-- Battery light -->
     <string name="light_settings_header">Налаштування індикатора</string>
     <string name="battery_light_settings">Індикація заряджання батареї</string>
@@ -822,7 +822,7 @@
     <string name="status_bar_logo_position_right">Праворуч</string>
     <string name="status_bar_logo_position_left">Ліворуч</string>
     <string name="status_bar_logo_style_title">Стиль</string>
-    <string name="status_bar_logo_style_evolution">Логотип Evolution X</string>
+    <string name="status_bar_logo_style_evolution">Логотип SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">АероДжордан</string>
     <string name="status_bar_logo_style_alien">Інопланетянин</string>
@@ -965,8 +965,8 @@
     <string name="power_menu_animation_card">Розгорнути по вертикалі</string>
     <string name="power_menu_animation_rotate">Обертання</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Поточний список змін</string>
-    <string name="changelog_evolution_summary">Переглянути останні зміни в прошивці</string>
+    <string name="changelog_sigma_title">Поточний список змін</string>
+    <string name="changelog_sigma_summary">Переглянути останні зміни в прошивці</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Паралельний простір</string>
     <string name="laboratory_parallel_space_summary">Дозволити паралельний запуск кількох екземплярів одного додатка</string>

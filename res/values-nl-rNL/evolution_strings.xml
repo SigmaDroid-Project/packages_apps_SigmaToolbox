@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2019-2021 The Evolution X Project
+                  2023 The SigmaDroid Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -104,16 +105,16 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animatie</string>
     <string name="pixel_navbar_anim_summary">Schakel home-knop animatie in of uit</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Het Team</string>
-    <string name="evolution_about_summary">Informatie over het team</string>
-    <string name="evolution_website_title">Website</string>
-    <string name="evolution_website_summary">Tik hier om onze geweldige website te bezoeken!</string>
-    <string name="evolution_twitter_summary">Tik hier om onze Twitter te bezoeken!</string>
-    <string name="evolution_telegram_summary">Tik hier om onze geweldige gemeenschap te bezoeken!</string>
-    <string name="evolution_github_summary">Tik hier om onze GitHub te openen!</string>
-    <string name="evolution_about_info_summary">Evolution X is een flashbare custom ROM om op het zicht een echte Pixel ervaring te brengen naar jouw Android apparaat, met veel extra configuraties tot uw beschikking. We proberen om frequente updates met maandelijkse beveiligingsupdates te bieden vanuit de laatste AOSP broncodes!</string>
-    <string name="evolution_about_team">Team Evolution X</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Het Team</string>
+    <string name="sigma_about_summary">Informatie over het team</string>
+    <string name="sigma_website_title">Website</string>
+    <string name="sigma_website_summary">Tik hier om onze geweldige website te bezoeken!</string>
+    <string name="sigma_twitter_summary">Tik hier om onze Twitter te bezoeken!</string>
+    <string name="sigma_telegram_summary">Tik hier om onze geweldige gemeenschap te bezoeken!</string>
+    <string name="sigma_github_summary">Tik hier om onze GitHub te openen!</string>
+    <string name="sigma_about_info_summary">SigmaDroid is een flashbare custom ROM om op het zicht een echte Pixel ervaring te brengen naar jouw Android apparaat, met veel extra configuraties tot uw beschikking. We proberen om frequente updates met maandelijkse beveiligingsupdates te bieden vanuit de laatste AOSP broncodes!</string>
+    <string name="sigma_about_team">Team SigmaDroid</string>
     <!-- Battery light -->
     <string name="light_settings_header">Licht instellingen</string>
     <string name="battery_light_settings">Batterij oplaadindicator</string>

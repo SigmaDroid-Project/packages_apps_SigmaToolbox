@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings;
+package com.sigma.settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -32,9 +32,9 @@ import com.android.settingslib.search.SearchIndexable;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 @SearchIndexable
-public class EvolutionSettings extends DashboardFragment {
+public class SigmaSettings extends DashboardFragment {
 
-    private static final String TAG = "EvolutionSettings";
+    private static final String TAG = "SigmaSettings";
     private int mDashBoardStyle;
     protected CollapsingToolbarLayout mCollapsingToolbarLayout;
 
@@ -62,7 +62,7 @@ public class EvolutionSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings;
+        return R.xml.sigma_settings;
     }
 
     @Override
@@ -99,8 +99,8 @@ public class EvolutionSettings extends DashboardFragment {
                 } else if (mKey.equals("misc_category")) {
                     mPreference.setLayoutResource(R.layout.dot_dashboard_preference_bottom);
                 } else {
-                    mPreference.setLayoutResource(R.layout.dot_dashboard_preference_middle); 
-                }  
+                    mPreference.setLayoutResource(R.layout.dot_dashboard_preference_middle);
+                }
             }
         }
     }
@@ -111,5 +111,5 @@ public class EvolutionSettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings);
+            new BaseSearchIndexProvider(R.xml.sigma_settings);
 }

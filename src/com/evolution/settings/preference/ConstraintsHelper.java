@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import android.content.Context;
 import android.content.Intent;

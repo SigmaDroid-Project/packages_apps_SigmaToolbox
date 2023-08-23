@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -53,9 +53,9 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.PackageListAdapter;
-import com.evolution.settings.preference.PackageListAdapter.PackageItem;
-import com.evolution.settings.preference.SystemSettingSeekBarPreference;
+import com.sigma.settings.preference.PackageListAdapter;
+import com.sigma.settings.preference.PackageListAdapter.PackageItem;
+import com.sigma.settings.preference.SystemSettingSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -75,7 +75,7 @@ public class HeadsUpSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_heads_up;
+        return R.xml.sigma_settings_heads_up;
     }
 
     @Override
@@ -130,5 +130,5 @@ public class HeadsUpSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_heads_up);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_heads_up);
 }

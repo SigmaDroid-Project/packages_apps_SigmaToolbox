@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -37,7 +37,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingMainSwitchPreference;
+import com.sigma.settings.preference.SystemSettingMainSwitchPreference;
 
 @SearchIndexable
 public class BatteryBar extends DashboardFragment implements
@@ -53,7 +53,7 @@ public class BatteryBar extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_battery_bar;
+        return R.xml.sigma_settings_battery_bar;
     }
 
     @Override
@@ -110,5 +110,5 @@ public class BatteryBar extends DashboardFragment implements
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_battery_bar);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_battery_bar);
 }

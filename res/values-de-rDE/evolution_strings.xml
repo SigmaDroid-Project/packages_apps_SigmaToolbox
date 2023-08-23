@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Layout invertieren</string>
     <string name="navbar_invert_layout_summary">Invertiert die Anordnung der Navigationsleiste und anderer Elemente (wie z. B. der Eingabemethodenauswahl)</string>
     <string name="system_navigation_summary">Wähle den zu verwendenden Systemnavigationsstil</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Das Team</string>
-    <string name="evolution_about_summary">Informationen über das Team</string>
-    <string name="evolution_website_title">Webseite</string>
-    <string name="evolution_website_summary">Tippe hier, um unsere fantastische Website zu besuchen!</string>
-    <string name="evolution_twitter_summary">Tippe hier, um unser Twitter zu besuchen!</string>
-    <string name="evolution_telegram_summary">Tippe hier, um unsere fantastische Community zu besuchen!</string>
-    <string name="evolution_github_summary">Tippe hier, um unseren GitHub zu öffnen!</string>
-    <string name="evolution_about_info_summary">Evolution X ist ein flashbares Custom ROM, das ein echtes Pixel-Erlebnis mit vielen zusätzlichen Konfigurationsmöglichkeiten auf Ihr Android-Gerät bringt. Unser Ziel ist es, möglichst häufige Updates mit monatlichen Sicherheits-Patches aus den neuesten AOSP Quellen bereitzustellen!</string>
-    <string name="evolution_about_team">Evolution X Team</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Das Team</string>
+    <string name="sigma_about_summary">Informationen über das Team</string>
+    <string name="sigma_website_title">Webseite</string>
+    <string name="sigma_website_summary">Tippe hier, um unsere fantastische Website zu besuchen!</string>
+    <string name="sigma_twitter_summary">Tippe hier, um unser Twitter zu besuchen!</string>
+    <string name="sigma_telegram_summary">Tippe hier, um unsere fantastische Community zu besuchen!</string>
+    <string name="sigma_github_summary">Tippe hier, um unseren GitHub zu öffnen!</string>
+    <string name="sigma_about_info_summary">SigmaDroid ist ein flashbares Custom ROM, das ein echtes Pixel-Erlebnis mit vielen zusätzlichen Konfigurationsmöglichkeiten auf Ihr Android-Gerät bringt. Unser Ziel ist es, möglichst häufige Updates mit monatlichen Sicherheits-Patches aus den neuesten AOSP Quellen bereitzustellen!</string>
+    <string name="sigma_about_team">SigmaDroid Team</string>
     <!-- Battery light -->
     <string name="light_settings_header">Lichteinstellungen</string>
     <string name="battery_light_settings">Akku Lade-LED</string>
@@ -704,7 +704,7 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Ermöglicht das Entsperren bei ausgeschaltetem Bildschirm.\nDie Aktivierung kann zu einem unbeabsichtigten Aufwecken führen</string>
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Sichere Kacheln für Schnelleinstellungen erfordern 
+    <string name="qstile_requires_unlocking_title">Sichere Kacheln für Schnelleinstellungen erfordern
 ein Entsperren des Gerätes</string>
     <string name="qstile_requires_unlocking_summary">Die folgenden QS-Kacheln müssen entsperrt werden, bevor Sie vom Sperrbildschirm aus darauf zugreifen können: \nFlugzeug, Mobiltelefon, NFC, Hotspot, USB-Tethering und Standort</string>
     <!-- UDFPS Haptic Feedback -->
@@ -818,7 +818,7 @@ ein Entsperren des Gerätes</string>
     <string name="status_bar_logo_position_right">Rechts</string>
     <string name="status_bar_logo_position_left">Links</string>
     <string name="status_bar_logo_style_title">Stil</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Alien</string>

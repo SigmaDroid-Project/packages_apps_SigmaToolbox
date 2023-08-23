@@ -19,22 +19,22 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/battery_light_settings">
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="battery_light_enabled"
         android:title="@string/battery_light_enable"
         android:defaultValue="true" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="battery_full_light_enabled"
         android:title="@string/battery_full_light_enabled"
         android:defaultValue="true" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="battery_light_allow_on_dnd"
         android:title="@string/battery_light_allow_on_dnd_title"
         android:defaultValue="false" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.sigma.settings.preference.SystemSettingSwitchPreference
         android:key="battery_light_low_blinking"
         android:title="@string/battery_light_low_blinking_title"
         android:defaultValue="false" />
@@ -43,22 +43,22 @@
         android:key="battery_light_cat"
         android:title="@string/battery_light_cat">
 
-        <com.evolution.settings.preference.colorpicker.SystemSettingColorPickerPreference
+        <com.sigma.settings.preference.colorpicker.SystemSettingColorPickerPreference
             android:key="battery_light_low_color"
             android:title="@string/battery_light_low_color"
             android:defaultValue="0xffff0000" />
 
-        <com.evolution.settings.preference.colorpicker.SystemSettingColorPickerPreference
+        <com.sigma.settings.preference.colorpicker.SystemSettingColorPickerPreference
             android:key="battery_light_medium_color"
             android:title="@string/battery_light_medium_color"
             android:defaultValue="0xffffff00" />
 
-        <com.evolution.settings.preference.colorpicker.SystemSettingColorPickerPreference
+        <com.sigma.settings.preference.colorpicker.SystemSettingColorPickerPreference
             android:key="battery_light_full_color"
             android:title="@string/battery_light_full_color"
             android:defaultValue="0xffffff00" />
 
-        <com.evolution.settings.preference.colorpicker.SystemSettingColorPickerPreference
+        <com.sigma.settings.preference.colorpicker.SystemSettingColorPickerPreference
             android:key="battery_light_reallyfull_color"
             android:title="@string/battery_light_reallyfull_color"
             android:defaultValue="0xff00ff00" />

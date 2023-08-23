@@ -12,7 +12,7 @@
         android:key="network_traffic_intro"
         android:title="@string/network_traffic_intro_text" />
 
-    <com.evolution.settings.preference.SystemSettingMainSwitchPreference
+    <com.sigma.settings.preference.SystemSettingMainSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_main_switch_title"
         android:defaultValue="false" />
@@ -20,7 +20,7 @@
     <PreferenceCategory
         android:title="@string/network_options_title">
 
-        <com.evolution.settings.preference.SystemSettingSwitchPreference
+        <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="network_traffic_autohide_threshold"
             android:title="@string/network_traffic_autohide_title"
             android:summary="@string/network_traffic_autohide_summary"

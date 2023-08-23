@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.app.Activity
 import android.app.AppLockManager

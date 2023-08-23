@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
@@ -48,7 +48,7 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.sigma.SigmaUtils;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -56,8 +56,8 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.fragments.UdfpsIconPicker;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.sigma.settings.fragments.UdfpsIconPicker;
+import com.sigma.settings.preference.SystemSettingSwitchPreference;
 
 import java.io.FileDescriptor;
 import java.util.ArrayList;
@@ -81,7 +81,7 @@ public class Udfps extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_udfps;
+        return R.xml.sigma_settings_udfps;
     }
 
     @Override
@@ -91,8 +91,8 @@ public class Udfps extends DashboardFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
-        final boolean udfpsResPkgInstalled = EvolutionUtils.isPackageInstalled(getContext(),
-                "com.evolution.udfps.resources");
+        final boolean udfpsResPkgInstalled = SigmaUtils.isPackageInstalled(getContext(),
+                "com.sigma.udfps.resources");
 	mUdfpsCustomization = (PreferenceCategory) findPreference(UDFPS_CUSTOMIZATION);
         if (!udfpsResPkgInstalled) {
             prefScreen.removePreference(mUdfpsCustomization);
@@ -188,5 +188,5 @@ public class Udfps extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_udfps);
+            new BaseSearchIndexProvider(R.xml.sigma_settings_udfps);
 }

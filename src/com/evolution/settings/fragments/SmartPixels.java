@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -42,7 +42,7 @@ public class SmartPixels extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_smart_pixels;
+        return R.xml.sigma_settings_smart_pixels;
     }
 
     @Override

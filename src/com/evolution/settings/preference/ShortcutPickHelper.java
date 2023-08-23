@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -42,7 +42,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.Fragment;
 
 import com.android.settings.R;
-import com.evolution.settings.preference.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
+import com.sigma.settings.preference.ShortcutPickHelper.AppExpandableAdapter.GroupInfo;
 
 public class ShortcutPickHelper {
 

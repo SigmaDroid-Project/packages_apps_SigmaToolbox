@@ -16,7 +16,7 @@
  * Adapter for displaying custom actions in a list
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import java.util.ArrayList;
 import java.util.List;

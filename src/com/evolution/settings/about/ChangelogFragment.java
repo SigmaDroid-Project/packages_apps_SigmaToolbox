@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.about;
+package com.sigma.settings.about;
 
 import android.annotation.Nullable;
 import android.app.Fragment;

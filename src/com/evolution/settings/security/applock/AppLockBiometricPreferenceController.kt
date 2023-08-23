@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.security.applock
+package com.sigma.settings.security.applock
 
 import android.app.AppLockManager
 import android.content.Context
@@ -24,7 +24,7 @@ import android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STR
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
-import com.evolution.settings.EvolutionTogglePreferenceController
+import com.sigma.settings.SigmaTogglePreferenceController
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -36,7 +36,7 @@ private const val KEY = "app_lock_biometrics_allowed"
 class AppLockBiometricPreferenceController(
     context: Context,
     private val coroutineScope: CoroutineScope
-) : EvolutionTogglePreferenceController(context, KEY) {
+) : SigmaTogglePreferenceController(context, KEY) {
 
     private val appLockManager = context.getSystemService(AppLockManager::class.java)
     private val biometricManager = context.getSystemService(BiometricManager::class.java)

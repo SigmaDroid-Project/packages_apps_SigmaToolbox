@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.sigma.settings.preference;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;

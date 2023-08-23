@@ -15,10 +15,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import static android.os.UserHandle.USER_SYSTEM;
-import static com.android.internal.util.evolution.ThemeUtils.FONT_KEY;
+import static com.android.internal.util.sigma.ThemeUtils.FONT_KEY;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -59,7 +59,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.sigma.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.List;

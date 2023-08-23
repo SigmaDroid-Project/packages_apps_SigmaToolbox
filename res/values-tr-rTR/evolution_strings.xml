@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Düzeni tersine çevir</string>
     <string name="navbar_invert_layout_summary">Gezinme çubuğunun ve klavye değiştirici gibi diğer öğelerin düzenini tersine çevirir</string>
     <string name="system_navigation_summary">Hangi sistem gezinme stilini kullanacağınızı seçin</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Takım</string>
-    <string name="evolution_about_summary">Ekip hakkında bilgiler</string>
-    <string name="evolution_website_title">İnternet sitesi</string>
-    <string name="evolution_website_summary">Web sitemizi ziyaret etmek için buraya dokunun</string>
-    <string name="evolution_twitter_summary">Twitter\'da bizi ziyaret etmek için buraya dokunun</string>
-    <string name="evolution_telegram_summary">Topluluk sohbetimizi ziyaret edin</string>
-    <string name="evolution_github_summary">GitHub\'ımızı açmak için buraya dokunun</string>
-    <string name="evolution_about_info_summary">Evolution X, Android Cihazınıza ilk bakışta gerçek bir Pixel hissi vermek için elinizin altında birçok ek yapılandırma ile esnek bir özel ROM\'dur. Emrinizde olan ek yapılandırmalarla, en son Android kaynaklarından aylık güvenlik yamaları içeren derlemeler sağlıyoruz.</string>
-    <string name="evolution_about_team">Katkıda bulunanlar</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Takım</string>
+    <string name="sigma_about_summary">Ekip hakkında bilgiler</string>
+    <string name="sigma_website_title">İnternet sitesi</string>
+    <string name="sigma_website_summary">Web sitemizi ziyaret etmek için buraya dokunun</string>
+    <string name="sigma_twitter_summary">Twitter\'da bizi ziyaret etmek için buraya dokunun</string>
+    <string name="sigma_telegram_summary">Topluluk sohbetimizi ziyaret edin</string>
+    <string name="sigma_github_summary">GitHub\'ımızı açmak için buraya dokunun</string>
+    <string name="sigma_about_info_summary">SigmaDroid, Android Cihazınıza ilk bakışta gerçek bir Pixel hissi vermek için elinizin altında birçok ek yapılandırma ile esnek bir özel ROM\'dur. Emrinizde olan ek yapılandırmalarla, en son Android kaynaklarından aylık güvenlik yamaları içeren derlemeler sağlıyoruz.</string>
+    <string name="sigma_about_team">Katkıda bulunanlar</string>
     <!-- Battery light -->
     <string name="light_settings_header">Işık ayarları</string>
     <string name="battery_light_settings">Pil ışığı</string>
@@ -820,7 +820,7 @@ Monitör, hızı dinamik olarak gösterir yani her saniye yükleme ve indirme h�
     <string name="status_bar_logo_position_right">Sağ</string>
     <string name="status_bar_logo_position_left">Sol</string>
     <string name="status_bar_logo_style_title">Stil</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Uzaylı</string>
@@ -961,8 +961,8 @@ Mevcut bildirimler ve yeni bildirimler yayına hazırlanacak.    </string>
     <string name="power_menu_animation_card">3D</string>
     <string name="power_menu_animation_rotate">Döndür</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Mevcut değişiklikler</string>
-    <string name="changelog_evolution_summary">ROM\'da ki son değişiklikleri görüntüle</string>
+    <string name="changelog_sigma_title">Mevcut değişiklikler</string>
+    <string name="changelog_sigma_summary">ROM\'da ki son değişiklikleri görüntüle</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Paralel alan</string>
     <string name="laboratory_parallel_space_summary">Aynı uygulamanın birden çok örneğini paralel olarak çalıştırmaya izin ver</string>

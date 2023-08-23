@@ -8,7 +8,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/carrier_label_settings_title">
 
-    <com.evolution.settings.preference.SystemSettingListPreference
+    <com.sigma.settings.preference.SystemSettingListPreference
         android:key="status_bar_show_carrier"
         android:title="@string/show_carrier_title"
         android:defaultValue="1" />

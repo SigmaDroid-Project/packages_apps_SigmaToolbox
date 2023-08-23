@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Инверсия расположения элементов</string>
     <string name="navbar_invert_layout_summary">Инвертирует расположение панели навигации и другие элементы, такие как кнопка смены метода ввода</string>
     <string name="system_navigation_summary">Выберите вариант навигации в системе</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">Команда</string>
-    <string name="evolution_about_summary">Информация о нашей Прошивке</string>
-    <string name="evolution_website_title">Сайт</string>
-    <string name="evolution_website_summary">Нажмите здесь, чтобы посетить наш потрясающий веб-сайт!</string>
-    <string name="evolution_twitter_summary">Нажмите здесь, чтобы посетить наш Twitter!</string>
-    <string name="evolution_telegram_summary">Нажмите здесь, чтобы посетить наше замечательное сообщество!</string>
-    <string name="evolution_github_summary">Нажмите здесь, чтобы посетить наш GitHub!</string>
-    <string name="evolution_about_info_summary">Evolution X - это кастомная прошивка, цель которой с первого взгляда привнести в ваше устройство ощущение Pixel. Мы предоставляем сборки с ежемесячными патчами безопасности из последних исходников Android вместе с дополнительными настройками.</string>
-    <string name="evolution_about_team">Контрибьюторы</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">Команда</string>
+    <string name="sigma_about_summary">Информация о нашей Прошивке</string>
+    <string name="sigma_website_title">Сайт</string>
+    <string name="sigma_website_summary">Нажмите здесь, чтобы посетить наш потрясающий веб-сайт!</string>
+    <string name="sigma_twitter_summary">Нажмите здесь, чтобы посетить наш Twitter!</string>
+    <string name="sigma_telegram_summary">Нажмите здесь, чтобы посетить наше замечательное сообщество!</string>
+    <string name="sigma_github_summary">Нажмите здесь, чтобы посетить наш GitHub!</string>
+    <string name="sigma_about_info_summary">SigmaDroid - это кастомная прошивка, цель которой с первого взгляда привнести в ваше устройство ощущение Pixel. Мы предоставляем сборки с ежемесячными патчами безопасности из последних исходников Android вместе с дополнительными настройками.</string>
+    <string name="sigma_about_team">Контрибьюторы</string>
     <!-- Battery light -->
     <string name="light_settings_header">Настройки индикации батареи</string>
     <string name="battery_light_settings">Индикатор зарядки батареи</string>
@@ -822,7 +822,7 @@
     <string name="status_bar_logo_position_right">Справа</string>
     <string name="status_bar_logo_position_left">Слева</string>
     <string name="status_bar_logo_style_title">Стиль</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Чужой</string>
@@ -965,8 +965,8 @@
     <string name="power_menu_animation_card">Развернуть вертикально</string>
     <string name="power_menu_animation_rotate">Вращение</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Текущий список изменений</string>
-    <string name="changelog_evolution_summary">Просмотр последних изменений в прошивке</string>
+    <string name="changelog_sigma_title">Текущий список изменений</string>
+    <string name="changelog_sigma_summary">Просмотр последних изменений в прошивке</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Параллельное пространство</string>
     <string name="laboratory_parallel_space_summary">Разрешить параллельный запуск нескольких экземпляров одного и того же приложения</string>

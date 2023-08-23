@@ -102,16 +102,16 @@
     <string name="navbar_invert_layout_title">Inverser la disposition</string>
     <string name="navbar_invert_layout_summary">Inverse la disposition de la barre de navigation et d\'autres éléments tels que le sélecteur de méthode de saisie</string>
     <string name="system_navigation_summary">Choisissez le style de navigation à utiliser</string>
-    <!-- About Evolution X -->
-    <string name="evolution_about_title">L\'équipe</string>
-    <string name="evolution_about_summary">Informations sur le système</string>
-    <string name="evolution_website_title">Site web</string>
-    <string name="evolution_website_summary">N\'hésitez pas à consulter notre site web</string>
-    <string name="evolution_twitter_summary">Venez voir nos tweets</string>
-    <string name="evolution_telegram_summary">Visitez notre chat communautaire</string>
-    <string name="evolution_github_summary">Allez voir notre GitHub</string>
-    <string name="evolution_about_info_summary">Evolution X est une ROM personnalisée qui vise à apporter une sensation de Pixel à votre appareil au premier coup d\'œil. Avec des configurations supplémentaires à votre disposition, nous fournissons des versions avec des correctifs de sécurité mensuels à partir des dernières sources Android.</string>
-    <string name="evolution_about_team">Contributeurs</string>
+    <!-- About SigmaDroid -->
+    <string name="sigma_about_title">L\'équipe</string>
+    <string name="sigma_about_summary">Informations sur le système</string>
+    <string name="sigma_website_title">Site web</string>
+    <string name="sigma_website_summary">N\'hésitez pas à consulter notre site web</string>
+    <string name="sigma_twitter_summary">Venez voir nos tweets</string>
+    <string name="sigma_telegram_summary">Visitez notre chat communautaire</string>
+    <string name="sigma_github_summary">Allez voir notre GitHub</string>
+    <string name="sigma_about_info_summary">SigmaDroid est une ROM personnalisée qui vise à apporter une sensation de Pixel à votre appareil au premier coup d\'œil. Avec des configurations supplémentaires à votre disposition, nous fournissons des versions avec des correctifs de sécurité mensuels à partir des dernières sources Android.</string>
+    <string name="sigma_about_team">Contributeurs</string>
     <!-- Battery light -->
     <string name="light_settings_header">Paramètres de la Led</string>
     <string name="battery_light_settings">Voyant de la batterie</string>
@@ -822,7 +822,7 @@
     <string name="status_bar_logo_position_right">À droite</string>
     <string name="status_bar_logo_position_left">À gauche</string>
     <string name="status_bar_logo_style_title">Style</string>
-    <string name="status_bar_logo_style_evolution">Evolution X</string>
+    <string name="status_bar_logo_style_evolution">SigmaDroid</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_alien">Alien</string>
@@ -965,8 +965,8 @@
     <string name="power_menu_animation_card">Etendre verticalement</string>
     <string name="power_menu_animation_rotate">Rotation</string>
     <!-- Changelog -->
-    <string name="changelog_evolution_title">Derniers changements</string>
-    <string name="changelog_evolution_summary">Afficher les modifications récentes du système</string>
+    <string name="changelog_sigma_title">Derniers changements</string>
+    <string name="changelog_sigma_summary">Afficher les modifications récentes du système</string>
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Espace parallèle</string>
     <string name="laboratory_parallel_space_summary">Autoriser l\'exécution de plusieurs instances de la même application en simultané</string>

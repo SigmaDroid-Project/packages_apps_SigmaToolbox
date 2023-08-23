@@ -25,7 +25,7 @@
         android:title="@string/sensor_block_summary" />
 
     <!-- Main switch -->
-    <com.evolution.settings.preference.SystemSettingMainSwitchPreference
+    <com.sigma.settings.preference.SystemSettingMainSwitchPreference
         android:key="sensor_block"
         android:title="@string/sensor_block_main_switch_title"
         android:defaultValue="false" />
@@ -36,7 +36,7 @@
         android:dependency="sensor_block"
         android:key="sensor_block_applications">
 
-        <com.evolution.settings.preference.AppListPreference
+        <com.sigma.settings.preference.AppListPreference
             android:key="add_sensor_block_packages"
             android:icon="@drawable/ic_menu_add_white"
             android:title="@string/add_sensor_block_package_title" />

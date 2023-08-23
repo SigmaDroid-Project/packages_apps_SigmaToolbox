@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.evolution.settings;
+package com.sigma.settings;
 
 import android.content.Context;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class TopLevelEvolutionSettingsPreferenceController extends BasePreferenceController {
+public class TopLevelSigmaSettingsPreferenceController extends BasePreferenceController {
 
-    public TopLevelEvolutionSettingsPreferenceController(Context context,
+    public TopLevelSigmaSettingsPreferenceController(Context context,
             String preferenceKey) {
         super(context, preferenceKey);
     }

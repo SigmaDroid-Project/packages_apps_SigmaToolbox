@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.sigma.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -55,7 +55,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.sigma.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

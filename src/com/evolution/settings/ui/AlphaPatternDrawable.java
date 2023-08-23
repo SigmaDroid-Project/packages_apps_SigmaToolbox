@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.ui;
+package com.sigma.settings.ui;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
