@@ -62,6 +62,7 @@ public class Themes extends DashboardFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "Themes";
+    private static final String KEY_DASHBOARD_STYLE = "settings_dashboard_style";
 
     private Handler mHandler;
     private IOverlayManager mOverlayManager;
@@ -77,10 +78,11 @@ public class Themes extends DashboardFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        mDashBoardStyle = (ListPreference) prefScreen.findPreference(KEY_DASHBOARD_STYLE);
+        mDashBoardStyle.setOnPreferenceChangeListener(this);
         Context mContext = getActivity().getApplicationContext();
         ContentResolver resolver = mContext.getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mOverlayService = IOverlayManager.Stub
         .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
