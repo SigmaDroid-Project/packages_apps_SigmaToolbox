@@ -87,7 +87,7 @@
     <!-- About SigmaDroid -->
     <Preference
         android:key="about_sigma"
-        android:title="@string/evolution_about_title"
-        android:fragment="com.evolution.settings.AboutEvolutionX"
+        android:title="@string/sigma_about_title"
+        android:fragment="com.sigma.settings.AboutSigmaDroid"
         android:icon="@drawable/ic_settings_sigma" />
 </PreferenceScreen>
