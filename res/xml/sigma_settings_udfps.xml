@@ -50,8 +50,8 @@
             android:key="udfps_recognizing_animation_preview"
             android:title="@string/udfps_recog_animation_effect_title"
             android:summary="@string/udfps_recog_animation_effect_summary"
-            android:fragment="com.sigma.settings.fragments.UdfpsAnimation" />
-
+            android:fragment="com.sigma.settings.fragments.UdfpsAnimation"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
