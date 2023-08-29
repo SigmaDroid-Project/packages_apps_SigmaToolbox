@@ -29,11 +29,20 @@
         <com.sigma.settings.preference.SystemSettingSeekBarPreference
             android:key="qs_tile_label_size"
             android:title="@string/qs_tile_label_size_title"
-            android:max="15"
-            settings:min="10"
+            android:max="20"
+            settings:min="0"
             settings:interval="1"
             settings:units="sp"
-            android:defaultValue="14" />
+            android:defaultValue="15" />
+
+        <com.sigma.settings.preference.SystemSettingSeekBarPreference
+            android:key="qs_tile_secondary_label_size"
+            android:title="@string/qs_tile_secondary_label_size_title"
+            android:max="18"
+            settings:min="0"
+            settings:interval="1"
+            settings:units="sp"
+            android:defaultValue="13" />
 
         <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="qs_tile_vertical_layout"
