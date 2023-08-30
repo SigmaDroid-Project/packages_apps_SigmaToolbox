@@ -7,6 +7,10 @@
     <!-- Sigma Toolbox -->
     <string name="sigma_dashboard_title">Sigma Toolbox</string>
 
+    <!-- Volume haptic feedback -->
+    <string name="volume_panel_haptic_feedback_title">Volume haptic feedback</string>
+    <string name="volume_panel_haptic_feedback_summary">Enable volume haptic feedback when adjust volume</string>
+    
     <!-- Categories -->
     <string name="aosp_options_title">System settings</string>
     <string name="animation_title">Animations</string>
