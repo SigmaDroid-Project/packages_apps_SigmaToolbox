@@ -83,7 +83,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
     private String[] mAnimPreviews;
     private String[] mTitles;
 
-    private boolean mEnabled;
+    private boolean mEnabled = true;
     private UdfpsAnimAdapter mUdfpsAnimAdapter;
 
     @Override
@@ -131,7 +131,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         final SettingsMainSwitchBar switchBar = activity.getSwitchBar();
         mSwitch = switchBar.getSwitch();
         mEnabled = Settings.System.getInt(getActivity().getContentResolver(),
-                       Settings.System.UDFPS_ANIM, 0) == 1;
+                    Settings.System.UDFPS_ANIM, 1) == 1 || mEnabled;
         mSwitch.setChecked(mEnabled);
         setEnabled(mEnabled);
         switchBar.setTitle(getActivity().getString(R.string.udfps_recog_animation));

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2019-2023 Evolution X
+                   2023 SigmaDroid
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen
@@ -51,7 +52,7 @@
             android:title="@string/udfps_recog_animation_effect_title"
             android:summary="@string/udfps_recog_animation_effect_summary"
             android:fragment="com.sigma.settings.fragments.UdfpsAnimation"
-            android:defaultValue="true" />
+            android:defaultValue="1" />
     </PreferenceCategory>
 
 </PreferenceScreen>
