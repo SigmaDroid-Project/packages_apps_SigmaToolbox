@@ -1172,6 +1172,7 @@
 
     <!-- Quick settings styles -->
     <string name="qs_styles_title">Combined QS element styles</string>
+    <string name="qs_ui_title">Quick Settings UI</string>
     <string name="qs_outline">Outline</string>
     <string name="qs_two_tone">Two-tone accent</string>
     <string name="qs_color_pop">Color pop</string>
