@@ -202,7 +202,8 @@ public class QuickSettings extends DashboardFragment implements
                 Settings.System.QS_UI_STYLE , 1, UserHandle.USER_CURRENT) == 1;
 
         String qsPanelStyleCategory = "android.theme.customization.qs_panel";
-
+        String qsUIStyleCategory = "android.theme.customization.qs_ui";
+        
         /// reset all overlays before applying
         resetQsOverlays(qsPanelStyleCategory);
         resetQsOverlays(qsUIStyleCategory);
