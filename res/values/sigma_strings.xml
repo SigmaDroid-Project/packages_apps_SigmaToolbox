@@ -1182,6 +1182,7 @@
     <string name="qs_surround">Surround</string>
     <string name="qs_thin">ThinLine</string>
     <string name="qs_two_tone_trans">Two-tone translucent</string>
+    <string name="android_eleven">Android 11</string>
 
     <!-- Media artwork -->
     <string name="artwork_media_background_enable_blur_title">Blur media notification artwork background</string>
