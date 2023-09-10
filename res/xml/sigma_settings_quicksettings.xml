@@ -29,6 +29,27 @@
             android:summary="%s"
             android:defaultValue="0" />
 
+            <!-- QS Panel style -->
+            <Preference
+            android:key="android.theme.customization.qs_panel"
+            android:title="@string/theme_customization_qs_style_title"
+            android:summary="@string/theme_customization_qs_style_summary"
+            android:fragment="com.sigma.settings.fragments.QsPanelStyles"/>
+
+        <!-- Brightness bar style -->
+        <Preference
+            android:key="android.theme.customization.bb_style"
+            android:title="@string/theme_customization_brightness_bar_title"
+            android:summary="@string/theme_customization_brightness_bar_summary"
+            android:fragment="com.sigma.settings.fragments.BrightnessBarStyles" />
+
+        <!-- Notifications style -->
+        <Preference
+            android:key="android.theme.customization.nf_style"
+            android:title="@string/theme_customization_notifications_title"
+            android:summary="@string/theme_customization_notifications_summary"
+            android:fragment="com.sigma.settings.fragments.NotificationStyles" />
+
         <com.sigma.settings.preference.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:title="@string/qs_tile_label_hide_title"

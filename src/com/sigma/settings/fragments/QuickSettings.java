@@ -62,7 +62,7 @@ public class QuickSettings extends DashboardFragment implements
     private static final String QUICK_PULLDOWN = "status_bar_quick_qs_pulldown";
     private static final String overlayThemeTarget  = "com.android.systemui";
     private static final String QS_PAGE_TRANSITIONS = "custom_transitions_page_tile";
-    private static final String KEY_QS_UI_STYLE  = "qs_ui_style";
+    private static final String KEY_QS_UI_STYLE = "qs_ui_style";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -90,9 +90,9 @@ public class QuickSettings extends DashboardFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mQsStyle = (SystemSettingListPreference) findPreference(KEY_QS_PANEL_STYLE);
+        mQsUI = (SystemSettingListPreference) findPreference(KEY_QS_UI_STYLE);
         mCustomSettingsObserver.observe();
 
-        mQsUI = (SystemSettingListPreference) findPreference(KEY_QS_UI_STYLE);
         mShowBrightnessSlider = findPreference(KEY_SHOW_BRIGHTNESS_SLIDER);
         mShowBrightnessSlider.setOnPreferenceChangeListener(this);
         boolean showSlider = Settings.Secure.getIntForUser(resolver,
@@ -138,6 +138,9 @@ public class QuickSettings extends DashboardFragment implements
             mBrightnessSliderPosition.setEnabled(value > 0);
             if (mShowAutoBrightness != null)
                 mShowAutoBrightness.setEnabled(value > 0);
+            return true;
+        }else if (preference == mQsUI) {
+            mCustomSettingsObserver.observe();
             return true;
         } else if (preference == mQuickPulldown) {
             int value = Integer.parseInt((String) newValue);
@@ -208,11 +211,11 @@ public class QuickSettings extends DashboardFragment implements
         resetQsOverlays(qsPanelStyleCategory);
         resetQsOverlays(qsUIStyleCategory);
 
+        if (qsPanelStyle == 0) return;
+
         if (isA11Style) {
             setQsStyle("com.android.system.qs.ui.A11", qsUIStyleCategory);
-        }
-
-        if (qsPanelStyle == 0) return;
+        } else {
 
         switch (qsPanelStyle) {
             case 1:
@@ -246,6 +249,7 @@ public class QuickSettings extends DashboardFragment implements
             default:
               break;
         }
+        }
     }
 
     public void resetQsOverlays(String category) {
@@ -253,7 +257,9 @@ public class QuickSettings extends DashboardFragment implements
     }
 
     public void setQsStyle(String overlayName, String category) {
-        mThemeUtils.setOverlayEnabled(category, overlayName, overlayThemeTarget);
+        boolean isA11Style = Settings.System.getIntForUser(getContext().getContentResolver(),
+        Settings.System.QS_UI_STYLE , 1, UserHandle.USER_CURRENT) == 1;
+        mThemeUtils.setOverlayEnabled(isA11Style ? "android.theme.customization.qs_ui" : "android.theme.customization.qs_panel", overlayName, "com.android.systemui");
     }
 
     @Override
